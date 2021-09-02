@@ -27,6 +27,16 @@
 [Advanced-Lane-Detection]https://github.com/uranus4ever/Advanced-Lane-Detection
 一个非常适合新人的车道检测任务的小demo
 
+[RESA]https://github.com/ZJULearning/resa
+
+[LaneDet]https://github.com/Turoad/lanedet
+
+[CondLaneNet]https://github.com/aliyun/conditional-lane-detection
+
+[Focus on Local: Detecting Lane Marker from Bottom Up via Key Point]https://openaccess.thecvf.com/content/CVPR2021/papers/Qu_Focus_on_Local_Detecting_Lane_Marker_From_Bottom_Up_via_CVPR_2021_paper.pdf
+
+[LaneNet-Lane-Detection]https://github.com/MaybeShewill-CV/lanenet-lane-detection
+
 ### 目标检测与追踪
 
 [YOLOR]https://github.com/WongKinYiu/yolor
