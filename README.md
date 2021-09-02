@@ -70,6 +70,13 @@ Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰�
 
 [3D-BoundingBox](https://github.com/skhadem/3D-BoundingBox)
 基于单目的3D bbox估计
+
+## 数据迭代与闭环
+
+[Discriminative Active Learning] https://github.com/dsgissin/DiscriminativeActiveLearning
+**主动学习**
+
+
 ## SLAM与定位
 [DeepLIO](https://github.com/ArashJavan/DeepLIO)
 **Lidar + IMU** 一款基于深度学习的lidar IMU融合里程计
@@ -111,7 +118,8 @@ Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰�
 
 ## 框架与解决方案
 
-[Apollo]
+[Apollo](https://github.com/ApolloAuto/apollo)
+百度apollo构建的平台
 
 [Autoware.auto]
 
