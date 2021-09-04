@@ -109,12 +109,16 @@ Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰�
 ## 规划与控制
 
 [自动驾驶中的决策规划算法概述](https://www.jiqizhixin.com/articles/2019-07-22)
-
+**学习资料** 
 [PID](https://en.wikipedia.org/wiki/PID_controller)
-
+**学习资料**
 [有限状态机](https://en.wikipedia.org/wiki/Finite-state_machine)
-
+**学习资料**
 [MPC](https://en.wikipedia.org/wiki/Model_predictive_control)
+**学习资料**
+[PathPlanning]https://github.com/zhm-real/PathPlanning
+**学习资料** 一个直观的路径规划常见规划算法的可视化与基本代码实现
+
 
 ## 框架与解决方案
 
