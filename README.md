@@ -2,6 +2,10 @@
 
 作者: 牛肉咖喱饭 
 
+最新更新日期：2022/01/06 
+
+大家2022继续加油！！！
+
 定期一个自动驾驶相关领域小项目或者小组件的试用分享！
 
 ## 参数标定
@@ -26,7 +30,6 @@
 ### 车道与车道线检测
 [Advanced-Lane-Detection](https://github.com/uranus4ever/Advanced-Lane-Detection)
 一个非常适合新人的车道检测任务的小demo
-
 [RESA](https://github.com/ZJULearning/resa)
 
 [LaneDet](https://github.com/Turoad/lanedet)
@@ -76,8 +79,10 @@ Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰�
 [Discriminative Active Learning] https://github.com/dsgissin/DiscriminativeActiveLearning
 **主动学习**
 
-
 ## SLAM与定位
+[AVP-SLAM](https://arxiv.org/abs/2007.01813)来自2020IROS的AVP定位方案：AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot(IROS 2020),主要是通过BEV视角对停车场中的车道线车库线以及标识进行检测并利用其进行稀疏定位。
+最近有两位大佬提供了仿真和定位的开源方案：[AVP-SLAM-SIM](https://github.com/TurtleZhong/AVP-SLAM-SIM) [AVP-SLAM-PLUS](https://github.com/liuguitao/AVP-SLAM-PLUS)
+
 [DeepLIO](https://github.com/ArashJavan/DeepLIO)
 **Lidar + IMU** 一款基于深度学习的lidar IMU融合里程计
 
@@ -105,6 +110,12 @@ Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰�
 ## 行为预测
 
 [An Auto-tuning Framework for Autonomous Vehicles] (https://arxiv.org/pdf/1808.04913.pdf)
+
+[VectorNet](https://github.com/Liang-ZX/VectorNet.git)
+来自[VectorNet: Encoding HD Maps and Agent Dynamics from Vectorized Representation](https://arxiv.org/abs/2005.04259)的复现项目，利用高精地图与目标物信息进对目标进行行为预测。apollo在7.0版本的行为预测部分的encoder利用了这个vectornet.
+
+[TNT](https://github.com/Henry1iu/TNT-Trajectory-Predition)TNT是一种基于历史数据（即多代理和环境之间交互）生成目标的轨迹状态序列方法，并基于似然估计得到紧凑的轨迹预测集。
+[TNT: Target-driveN Trajectory Prediction](https://arxiv.org/pdf/2008.08294.pdf) apollo在7.0版本的行为预测模块inter-TNT的轨迹生成利用了TNT的方法.
 
 ## 规划与控制
 
