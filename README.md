@@ -161,14 +161,18 @@ Cruise 开源的一款自动驾驶前端可视化套件
 [BDD100k](https://www.bdd100k.com/)
 
 [UrbanNav](https://github.com/weisongwen/UrbanNavDataset)
+一个在亚洲城市峡谷（包括东京和香港）收集的开源本地化数据集,主要用于解决定位算法的各种问题。
 
 [ONCE](https://once-for-auto-driving.github.io)
 
 [SODA10M](https://soda-2d.github.io/)
 
-**数据集** 一个在亚洲城市峡谷（包括东京和香港）收集的开源本地化数据集,主要用于解决定位算法的各种问题。
+[OPV2V](https://mobility-lab.seas.ucla.edu/opv2v/)
+首个大型自动驾驶协同感知数据集 + banchmark代码框架, 由UCLA提供
+
 
 ## 其他更好的分享
+
 
 [awesome-3D-object-detection] (https://github.com/Tom-Hardy-3D-Vision-Workshop/awesome-3D-object-detection)
 
