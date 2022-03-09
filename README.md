@@ -57,6 +57,9 @@ Anchor-free 版本的YOLO，堆砌了解耦头，simOTA等，达到了SOTA
 [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
 基于yolo-v5的目标追踪
 
+[multi-attention -> onnx](https://github.com/liudaizong/CSMGAN/blob/51348c805e83cf4b1c791592d329851a8e2186aa/code/modules_/multihead_attention.py)
+提供了一个多头注意力机制支持onnx部署的方式
+
 ### 语义分割
 
 [Cam2BEV](https://github.com/ika-rwth-aachen/Cam2BEV)
