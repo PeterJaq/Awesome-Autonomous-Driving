@@ -113,6 +113,10 @@ Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰�
 [SC-LIO-SAM](https://github.com/gisbi-kim/SC-LIO-SAM)
 **Lidar + Camera** LIO-SAM的基于全局描述子Scan Context的回环检测
 
+[Livox-Mapping]https://github.com/PJLab-ADG/Livox-Mapping
+**Livox + IMU + SC  ** 一款基于Livox的mapping工具包，在先前的工具上添加了SC和Fastlio的一些特性 
+
+
 ## 行为预测
 
 [An Auto-tuning Framework for Autonomous Vehicles] (https://arxiv.org/pdf/1808.04913.pdf)
