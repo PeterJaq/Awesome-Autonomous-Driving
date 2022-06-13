@@ -150,6 +150,14 @@ Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰�
 
 [Autoware.ai]
 
+## 算法部署方案
+[nvidia 官方 pointpillars TensorRT示例](https://github.com/NVIDIA-AI-IOT/CUDA-PointPillars)
+
+[大神 multi-head pointpillars TensorRT部署](https://github.com/hova88/PointPillars_MultiHead_40FPS)
+
+[yolo 系列部署 tensorRT 部署](https://github.com/shouxieai/tensorRT_Pro)
+
+[我自己的 ROS Lidar Perception TensorRT部署](https://github.com/PeterJaq/lidar_perception)
 
 ## 其他组件
 
