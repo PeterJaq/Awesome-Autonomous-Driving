@@ -10,6 +10,9 @@
 
 ## 参数标定
 
+[OpenCalib](https://github.com/PJLab-ADG/SensorsCalibration)
+**ALL in One** 商汤开源的自动驾驶多传感器的一个开源标定工具箱，基本涵盖了大部分的自动驾驶标定场景。
+
 [camera-calibration](https://github.com/LittleAprilFool/camera-calibration)
 **入门** 能够比较好的阐述相机标定具体步骤和原理的
 
