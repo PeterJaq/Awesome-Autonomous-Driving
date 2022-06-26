@@ -24,7 +24,7 @@ Now I am re-orging this project.
     - [3.1.4 Multimodal Fusion]
   - [3.2 Tracking]
 - [4. Pridection]
-- [5. Localization]
+- [5. Localization and SLAM(定位与SLAM)](#5-localization-and-slam)
 - [6. Planning]
 - [7. Control]
 - [8. Dataset and Competition(数据集与竞赛)](#8-Dataset-and-Competition(数据集与竞赛))
@@ -54,21 +54,29 @@ Now I am re-orging this project.
 ## 2. Sensor and Calibration Tools
 ### 2.1 Sensor Hardware
 *传感器硬件*
+
   ** LiDAR ** 
+  
   - [velodyne](https://github.com/ros-drivers/velodyne) - velodyne lidar driver for ros.
   - [livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) - livox (a low cost lidar form [DJI](https://www.dji.com/cn)) lidar driver.
   - [rslidar_sdk](https://github.com/RoboSense-LiDAR/rslidar_sdk) - lidar driver from [Robosense](https://www.robosense.ai).
   - [ros2_ouster_drivers](https://github.com/ros-drivers/ros2_ouster_drivers) - ROS2 Drivers for the [Ouster](https://www.ouster.com) OS-0, OS-1, and OS-2 Lidars. 
+
  ** Camera ** 
+ 
   - [miivii_gmsl_camera](https://github.com/MiiViiDynamics/miivii_gmsl_camera) - [米文](https://www.miivii.com/)摄像头
   - [sensing](https://www.sensing-world.com/) - [森云](https://www.sensing-world.com/) - 森云摄像头
   - [Hikvision](https://www.hikvision.com) - You can download [SDK](https://www.hikvision.com/en/support/download/sdk/).
   - [usb_cam](https://github.com/ros-drivers/usb_cam) - all most ros1 usb camera driver you can buy from Taobao/Aliexpress.
   - [ros2_usb_camera](https://github.com/klintan/ros2_usb_camera) - all most ros2 usb camera driver you can buy from Taobao/Aliexpress.
+
  ** GPS/IMU ** 
+ 
   - [huace](https://www.huace.cn) - 华测组合导航产品
   - [novatel_gps_driver](https://github.com/swri-robotics/novatel_gps_driver) - C++ ROS driver for NovAtel GPS / GNSS Receivers.
+ 
  ** MCU **
+ 
   - [STM32Cube_MCU_Overall_Offer](https://github.com/STMicroelectronics/STM32Cube_MCU_Overall_Offer) - The open source offer for the STM32 MCU products.
 
 
@@ -90,9 +98,12 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 
 ## 3. Perception
 ### 3.1 Detection
+
 *检测与分割*
+
 ### 3.1.1 Vision based
 *基于视觉*
+
   **Lane Detection**
    
   - [Advanced-Lane-Detection](https://github.com/uranus4ever/Advanced-Lane-Detection) - 一个非常适合新人的车道检测任务的小demo
@@ -104,18 +115,27 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [urban_road_filter](https://github.com/jkk-research/urban_road_filter) 一种实时的道路边缘检测分割工具
   - [Cam2BEV](https://github.com/ika-rwth-aachen/Cam2BEV) - Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰图的工具，并且该方法不需要手工对鸟瞰图进行标注通过合成的数据进行训练。
   - [YOLOP](https://github.com/hustvl/YOLOP) - 来自华中科技大学的作品，也是yolo系列的另一力作，本项目提出额一种高效的多任务网络，可以联合处理自动驾驶中的多个任务（目标检测，可行驶区域分割与车道检测三个关键任务），值得注意的是在BDD100K中该方法实现了SOTA的情况下还保持了嵌入式友好。
+ 
   **Object Detection**
+  
   - [YOLOR](https://github.com/WongKinYiu/yolor) - 提出了在网络模型中引入隐知识的概念，将隐知识和显知识同时作用于模型训练，通过核函数对齐，预测精修以及多任务同时学习，让网络表征出一种统一化的特征。
   - [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) - Anchor-free 版本的YOLO，堆砌了解耦头，simOTA等，达到了SOTA
+  - [3D-BoundingBox](https://github.com/skhadem/3D-BoundingBox)
+
+
 ### 3.1.2 Lidar based
-"基于激光雷达"
+
+*基于激光雷达*
+
   **Object Detection**
+  
   - [Voxelnet](https://github.com/steph1793/Voxelnet)
   - [Complex-YOLO](https://github.com/maudzung/Complex-YOLOv4-Pytorch)
   - [PointRCNN](https://github.com/sshaoshuai/PointRCNN)
-  - [3D-BoundingBox](https://github.com/skhadem/3D-BoundingBox)
-基于单目的3D bbox估计
+
 ### 3.1 Tracking
+*追踪算法*
+
 - [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch) 基于yolo-v5的目标追踪
 
 
@@ -126,36 +146,23 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 [Discriminative Active Learning] https://github.com/dsgissin/DiscriminativeActiveLearning
 **主动学习**
 
-## SLAM与定位
-[AVP-SLAM](https://arxiv.org/abs/2007.01813)来自2020IROS的AVP定位方案：AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot(IROS 2020),主要是通过BEV视角对停车场中的车道线车库线以及标识进行检测并利用其进行稀疏定位。
+## 5 Localization and SLAM
+  *Localization*
+  
+  - [hdl_localization](https://github.com/koide3/hdl_localization) - **Lidar + IMU** 基于卡尔曼滤波的位置估计使用了激光雷达，IMU, 可以做到实时估计。
+  
+  *SLAM*
+  
+- [AVP-SLAM](https://arxiv.org/abs/2007.01813)来自2020IROS的AVP定位方案：AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot(IROS 2020),主要是通过BEV视角对停车场中的车道线车库线以及标识进行检测并利用其进行稀疏定位。
 最近有两位大佬提供了仿真和定位的开源方案：[AVP-SLAM-SIM](https://github.com/TurtleZhong/AVP-SLAM-SIM) [AVP-SLAM-PLUS](https://github.com/liuguitao/AVP-SLAM-PLUS)
-
-[DeepLIO](https://github.com/ArashJavan/DeepLIO)
-**Lidar + IMU** 一款基于深度学习的lidar IMU融合里程计
-
-[hdl_localization](https://github.com/koide3/hdl_localization)
-**Lidar + IMU** 基于卡尔曼滤波的位置估计使用了激光雷达，IMU, 可以做到实时估计。
-
-[hdl_graph_slam](https://github.com/koide3/hdl_graph_slam)
-**Lidar + IMU + GPS** 它基于三维图形SLAM，具有基于NDT扫描匹配的测距估计和循环检测。它还支持几个约束，如GPS、IMU。
-
-[LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
-**Lidar + IMU + GPS** 基于激光雷达，IMU和GPS多种传感器的因子图优化方案，以及在帧图匹配中使用帧-局部地图取代帧-全局地图。
-
-[LVI-SAM](https://github.com/TixiaoShan/LVI-SAM)
-**Lidar + Camera** 基于视觉+激光雷达的惯导融合
-
-[LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM)
-**Lidar** LeGO-LOAM是以LOAM为框架而衍生出来的新的框架。其与LOAM相比，更改了特征点的提取形式，添加了后端优化，因此，构建出来的地图就更加的完善。
-
-[SC-LeGO-LOAM](https://github.com/irapkaist/SC-LeGO-LOAM)
-**Lidar** LeGO-LOAM的基于全局描述子Scan Context的回环检测
-
-[SC-LIO-SAM](https://github.com/gisbi-kim/SC-LIO-SAM)
-**Lidar + Camera** LIO-SAM的基于全局描述子Scan Context的回环检测
-
-[Livox-Mapping]https://github.com/PJLab-ADG/Livox-Mapping
-**Livox + IMU + SC  ** 一款基于Livox的mapping工具包，在先前的工具上添加了SC和Fastlio的一些特性 
+- [DeepLIO](https://github.com/ArashJavan/DeepLIO) - **Lidar + IMU** 一款基于深度学习的lidar IMU融合里程计
+- [hdl_graph_slam](https://github.com/koide3/hdl_graph_slam) - **Lidar + IMU + GPS** 它基于三维图形SLAM，具有基于NDT扫描匹配的测距估计和循环检测。它还支持几个约束，如GPS、IMU。
+- [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) - **Lidar + IMU + GPS** 基于激光雷达，IMU和GPS多种传感器的因子图优化方案，以及在帧图匹配中使用帧-局部地图取代帧-全局地图。
+- [LVI-SAM](https://github.com/TixiaoShan/LVI-SAM) - **Lidar + Camera** 基于视觉+激光雷达的惯导融合
+- [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM) - **Lidar** LeGO-LOAM是以LOAM为框架而衍生出来的新的框架。其与LOAM相比，更改了特征点的提取形式，添加了后端优化，因此，构建出来的地图就更加的完善。
+- [SC-LeGO-LOAM](https://github.com/irapkaist/SC-LeGO-LOAM) - **Lidar** LeGO-LOAM的基于全局描述子Scan Context的回环检测
+- [SC-LIO-SAM](https://github.com/gisbi-kim/SC-LIO-SAM) - **Lidar + Camera** LIO-SAM的基于全局描述子Scan Context的回环检测
+- [Livox-Mapping]https://github.com/PJLab-ADG/Livox-Mapping - **Livox + IMU + SC  ** 一款基于Livox的mapping工具包，在先前的工具上添加了SC和Fastlio的一些特性 
 
 
 ## 行为预测
