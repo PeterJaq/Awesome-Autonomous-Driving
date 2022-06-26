@@ -45,13 +45,18 @@ This project will be periodically updated with quality projects and papers relat
 - [Autoware.ai](https://github.com/Autoware-AI/) - Open-source software for self-driving vehicles known as Autoware-1.
 - [Autoware.auto](https://gitlab.com/autowarefoundation/autoware.auto) - Open-source software for self-driving vehicles known as Autoware-2.
 - [AutowareArchitectureProposal.proj](https://github.com/tier4/AutowareArchitectureProposal.proj) - Manages several projects related to self-driving vehicles. 
-- [self-driving-ish_computer_vision_system](https://github.com/iwatake2222/self-driving-ish_computer_vision_system) - This project generates images you've probably seen in autonomous driving demo
+- [self-driving-ish_computer_vision_system](https://github.com/iwatake2222/self-driving-ish_computer_vision_system) - This project generates images you've probably seen in autonomous driving demo.
 - [Aslan](https://github.com/project-aslan/Aslan) - An open-source full-stack software based on ROS framework.
-- [AutoC2X-AW](https://github.com/esakilab/AutoC2X-AW) - Extension for Autoware and OpenC2X
+- [AutoC2X-AW](https://github.com/esakilab/AutoC2X-AW) - Extension for Autoware and OpenC2X.
 
 ## 2. Sensor and Calibration Tools
 ### 2.1 Sensor Hardware
 *传感器硬件*
+- [velodyne](https://github.com/ros-drivers/velodyne) - velodyne lidar driver for ros.
+- [livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) - livox (a low cost lidar form [DJI](https://www.dji.com/cn)) lidar driver.
+- [rslidar_sdk](https://github.com/RoboSense-LiDAR/rslidar_sdk) - lidar driver from [Robosense](https://www.robosense.ai).
+- [ros2_ouster_drivers](https://github.com/ros-drivers/ros2_ouster_drivers) - ROS2 Drivers for the [Ouster](https://www.ouster.com) OS-0, OS-1, and OS-2 Lidars. 
+
 ### 2.2 Calibration Tools
 *参数标定工具*
 
