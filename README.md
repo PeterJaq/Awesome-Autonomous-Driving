@@ -8,6 +8,21 @@
 
 定期一个自动驾驶相关领域小项目或者小组件的试用分享！
 
+## 模型部署
+[Model_Inference_Deployment](https://github.com/Yulv-git/Model_Inference_Deployment)一个的深度学习部署方案汇总
+
+### Pillars 系列
+
+[CUDA-PointPillars](https://github.com/NVIDIA-AI-IOT/CUDA-PointPillars) NV官方PointPillars部署方案
+
+[nutonomy_pointpillars](https://github.com/SmallMunich/nutonomy_pointpillars) PointPillars
+
+[mmdet3d_onnx_tools](https://github.com/speshowBUAA/mmdet3d_onnx_tools) PointPillars
+
+[CenterPoint](https://github.com/CarkusL/CenterPoint)  CenterPoint-PonintPillars 
+
+[PointPillars_MultiHead_40FPS](https://github.com/hova88/PointPillars_MultiHead_40FPS) MultiHead PointPillars
+
 ## 参数标定
 
 [OpenCalib](https://github.com/PJLab-ADG/SensorsCalibration)
