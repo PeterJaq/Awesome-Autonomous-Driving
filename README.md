@@ -11,9 +11,9 @@ This project will be periodically updated with quality projects and papers relat
 - [1. Autonomous Driving Midleware and Integrated Solutions(中间件与解决方案)](#解决方案)
   - [1.1 Midelware(中间件)](#中间件)
   - [1.2 Integrated Solutions(解决方案)](#解决方案)
-- [2. Sensor and Calibration Tools(传感器与参数标定)](#硬件与参数标定)
-  - [2.1 Sensor Hardware(传感器硬件)](#21-Sensor Hardware(传感器硬件))
-  - [2.2 Calibration Tools(参数标定工具)](#22-Calibration Tools(参数标定工具))
+- [2. Sensor and Calibration Tools(传感器与参数标定)](#2-Sensor-and-Calibration-Tools(传感器与参数标定))
+  - [2.1 Sensor Hardware(传感器硬件)](#21-Sensor-Hardware(传感器硬件))
+  - [2.2 Calibration Tools(参数标定工具)](#22-Calibration-Tools(参数标定工具))
 - [3. Perception]
   - [3.1 Detection]
     - [3.1.1 Vision based]
@@ -25,13 +25,13 @@ This project will be periodically updated with quality projects and papers relat
 - [5. Localization]
 - [6. Planning]
 - [7. Control]
-- [8. Dataset and Competition(数据集与竞赛)](#8-Dataset and Competition(数据集与竞赛))
+- [8. Dataset and Competition(数据集与竞赛)](#8-Dataset-and-Competition(数据集与竞赛))
 - [9. Visualization(可视化工具)](#9-Visualization(可视化工具))
-- [10. Data Loop(数据闭环)](#10-Data Loop(数据闭环))
+- [10. Data Loop(数据闭环)](#10-Data-Loop(数据闭环))
 - [11. Simulation(仿真)](#11-Simulation(仿真))
 - [12. Others(其他更好的)](#12-Others(其他更好的))
 
-## 2. 硬件与参数标定
+## 2. Sensor and Calibration Tools(传感器与参数标定)
 ### 2.1 Sensor Hardware(传感器硬件)
 
 ### 2.2 Calibration Tools(参数标定工具)
