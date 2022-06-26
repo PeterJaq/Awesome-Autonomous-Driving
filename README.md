@@ -6,6 +6,8 @@ Update：2022/06/26
 
 This project will be periodically updated with quality projects and papers related to autonomous driving.
 
+Now I am re-orging this project.
+
 ## Contents
 - [Contents](#contents)
 - [1. Autonomous Driving Midleware and Integrated Solutions(中间件与解决方案)](#1-autonomous-driving-midleware-and-integrated-solutions)
@@ -14,9 +16,9 @@ This project will be periodically updated with quality projects and papers relat
 - [2. Sensor and Calibration Tools(传感器与参数标定)](#2-sensor-and-calibration-tools)
   - [2.1 Sensor Hardware(传感器硬件)](#21-sensor-hardware)
   - [2.2 Calibration Tools(参数标定工具)](#22-calibration-tools)
-- [3. Perception]
-  - [3.1 Detection]
-    - [3.1.1 Vision based]
+- [3. Perception](#3-perception)
+  - [3.1 Detection](#31-detection)
+    - [3.1.1 Vision based](#311-vision-based)
     - [3.1.2 Lidar based]
     - [3.1.3 Radar based]
     - [3.1.4 Multimodal Fusion]
@@ -52,86 +54,72 @@ This project will be periodically updated with quality projects and papers relat
 ## 2. Sensor and Calibration Tools
 ### 2.1 Sensor Hardware
 *传感器硬件*
-- [velodyne](https://github.com/ros-drivers/velodyne) - velodyne lidar driver for ros.
-- [livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) - livox (a low cost lidar form [DJI](https://www.dji.com/cn)) lidar driver.
-- [rslidar_sdk](https://github.com/RoboSense-LiDAR/rslidar_sdk) - lidar driver from [Robosense](https://www.robosense.ai).
-- [ros2_ouster_drivers](https://github.com/ros-drivers/ros2_ouster_drivers) - ROS2 Drivers for the [Ouster](https://www.ouster.com) OS-0, OS-1, and OS-2 Lidars. 
+  ** LiDAR ** 
+  - [velodyne](https://github.com/ros-drivers/velodyne) - velodyne lidar driver for ros.
+  - [livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) - livox (a low cost lidar form [DJI](https://www.dji.com/cn)) lidar driver.
+  - [rslidar_sdk](https://github.com/RoboSense-LiDAR/rslidar_sdk) - lidar driver from [Robosense](https://www.robosense.ai).
+  - [ros2_ouster_drivers](https://github.com/ros-drivers/ros2_ouster_drivers) - ROS2 Drivers for the [Ouster](https://www.ouster.com) OS-0, OS-1, and OS-2 Lidars. 
+ ** Camera ** 
+  - [miivii_gmsl_camera](https://github.com/MiiViiDynamics/miivii_gmsl_camera) - [米文](https://www.miivii.com/)摄像头
+  - [sensing](https://www.sensing-world.com/) - [森云](https://www.sensing-world.com/) - 森云摄像头
+  - [Hikvision](https://www.hikvision.com) - You can download [SDK](https://www.hikvision.com/en/support/download/sdk/).
+  - [usb_cam](https://github.com/ros-drivers/usb_cam) - all most ros1 usb camera driver you can buy from Taobao/Aliexpress.
+  - [ros2_usb_camera](https://github.com/klintan/ros2_usb_camera) - all most ros2 usb camera driver you can buy from Taobao/Aliexpress.
+ ** GPS/IMU ** 
+  - [huace](https://www.huace.cn) - 华测组合导航产品
+  - [novatel_gps_driver](https://github.com/swri-robotics/novatel_gps_driver) - C++ ROS driver for NovAtel GPS / GNSS Receivers.
+ ** MCU **
+  - [STM32Cube_MCU_Overall_Offer](https://github.com/STMicroelectronics/STM32Cube_MCU_Overall_Offer) - The open source offer for the STM32 MCU products.
+
 
 ### 2.2 Calibration Tools
 *参数标定工具*
 
 - [OpenCalib](https://github.com/PJLab-ADG/SensorsCalibration) - 
 **ALL in One** 商汤开源的自动驾驶多传感器的一个开源标定工具箱，基本涵盖了大部分的自动驾驶标定场景。
-
 - [camera-calibration](https://github.com/LittleAprilFool/camera-calibration) -
 能够比较好的阐述相机标定具体步骤和原理的
-
 - [CameraCalibration](https://github.com/dyfcalid/CameraCalibration) - 
 这个项目集合了相机标定相关的多个脚本工具，便于完成完整的车载环视相机标定流程
-
 - [ros-camera-lidar-calibration](https://github.com/swyphcosmo/ros-camera-lidar-calibration) -
 相机内参标定与相机lidar外参标定
-
 - [lidar_IMU_calib](https://github.com/APRIL-ZJU/lidar_IMU_calib) -
 Lidar IMU 的标定工具
-
 - [sync_gps_lidar_imu_cam](https://github.com/nkliuhui/sync_gps_lidar_imu_cam) -
 lidar-imu-cam-GPS时间戳硬件同步方案
 
-## 2D检测
-
-### 车道与车道线检测
-[Advanced-Lane-Detection](https://github.com/uranus4ever/Advanced-Lane-Detection)
-一个非常适合新人的车道检测任务的小demo
-[RESA](https://github.com/ZJULearning/resa)
-
-[LaneDet](https://github.com/Turoad/lanedet)
-
-[CondLaneNet](https://github.com/aliyun/conditional-lane-detection)
-
-[Focus on Local: Detecting Lane Marker from Bottom Up via Key Point](https://openaccess.thecvf.com/content/CVPR2021/papers/Qu_Focus_on_Local_Detecting_Lane_Marker_From_Bottom_Up_via_CVPR_2021_paper.pdf)
-
-[LaneNet-Lane-Detection](https://github.com/MaybeShewill-CV/lanenet-lane-detection)
-
-[urban_road_filter](https://github.com/jkk-research/urban_road_filter)
-一种实时的道路边缘检测分割工具
-
-### 目标检测与追踪
-
-[YOLOR](https://github.com/WongKinYiu/yolor)
-提出了在网络模型中引入隐知识的概念，将隐知识和显知识同时作用于模型训练，通过核函数对齐，预测精修以及多任务同时学习，让网络表征出一种统一化的特征。
-
-[YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
-Anchor-free 版本的YOLO，堆砌了解耦头，simOTA等，达到了SOTA
-
-[Lite.ai](https://github.com/DefTruth/lite.ai)
-该项目提供了一系列轻量级的目标检测语义分割任务的整合框架支持 YOLOX🔥, YoloR🔥, YoloV5, YoloV4, DeepLabV3, ArcFace, CosFace, RetinaFace, SSD, etc.
-
-[Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
-基于yolo-v5的目标追踪
-
-[multi-attention -> onnx](https://github.com/liudaizong/CSMGAN/blob/51348c805e83cf4b1c791592d329851a8e2186aa/code/modules_/multihead_attention.py)
-提供了一个多头注意力机制支持onnx部署的方式
-
-### 语义分割
-
-[Cam2BEV](https://github.com/ika-rwth-aachen/Cam2BEV)
-Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰图的工具，并且该方法不需要手工对鸟瞰图进行标注通过合成的数据进行训练。
-
-### 多头任务检测检测
-
-[YOLOP](https://github.com/hustvl/YOLOP)
-来自华中科技大学的作品，也是yolo系列的另一力作，本项目提出额一种高效的多任务网络，可以联合处理自动驾驶中的多个任务（目标检测，可行驶区域分割与车道检测三个关键任务），值得注意的是在BDD100K中该方法实现了SOTA的情况下还保持了嵌入式友好。
-
-## 3D检测
-[Voxelnet](https://github.com/steph1793/Voxelnet)
-
-[Complex-YOLO](https://github.com/maudzung/Complex-YOLOv4-Pytorch)
-
-[PointRCNN](https://github.com/sshaoshuai/PointRCNN)
-
-[3D-BoundingBox](https://github.com/skhadem/3D-BoundingBox)
+## 3. Perception
+### 3.1 Detection
+*检测与分割*
+### 3.1.1 Vision based
+*基于视觉*
+  **Lane Detection**
+   
+  - [Advanced-Lane-Detection](https://github.com/uranus4ever/Advanced-Lane-Detection) - 一个非常适合新人的车道检测任务的小demo
+  - [RESA](https://github.com/ZJULearning/resa)
+  - [LaneDet](https://github.com/Turoad/lanedet)
+  - [CondLaneNet](https://github.com/aliyun/conditional-lane-detection)
+  - [Focus on Local: Detecting Lane Marker from Bottom Up via Key Point](https://openaccess.thecvf.com/content/CVPR2021/papers/Qu_Focus_on_Local_Detecting_Lane_Marker_From_Bottom_Up_via_CVPR_2021_paper.pdf)
+  - [LaneNet-Lane-Detection](https://github.com/MaybeShewill-CV/lanenet-lane-detection)
+  - [urban_road_filter](https://github.com/jkk-research/urban_road_filter) 一种实时的道路边缘检测分割工具
+  - [Cam2BEV](https://github.com/ika-rwth-aachen/Cam2BEV) - Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰图的工具，并且该方法不需要手工对鸟瞰图进行标注通过合成的数据进行训练。
+  - [YOLOP](https://github.com/hustvl/YOLOP) - 来自华中科技大学的作品，也是yolo系列的另一力作，本项目提出额一种高效的多任务网络，可以联合处理自动驾驶中的多个任务（目标检测，可行驶区域分割与车道检测三个关键任务），值得注意的是在BDD100K中该方法实现了SOTA的情况下还保持了嵌入式友好。
+  **Object Detection**
+  - [YOLOR](https://github.com/WongKinYiu/yolor) - 提出了在网络模型中引入隐知识的概念，将隐知识和显知识同时作用于模型训练，通过核函数对齐，预测精修以及多任务同时学习，让网络表征出一种统一化的特征。
+  - [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) - Anchor-free 版本的YOLO，堆砌了解耦头，simOTA等，达到了SOTA
+### 3.1.2 Lidar based
+"基于激光雷达"
+  **Object Detection**
+  - [Voxelnet](https://github.com/steph1793/Voxelnet)
+  - [Complex-YOLO](https://github.com/maudzung/Complex-YOLOv4-Pytorch)
+  - [PointRCNN](https://github.com/sshaoshuai/PointRCNN)
+  - [3D-BoundingBox](https://github.com/skhadem/3D-BoundingBox)
 基于单目的3D bbox估计
+### 3.1 Tracking
+- [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch) 基于yolo-v5的目标追踪
+
+
+
 
 ## 数据迭代与闭环
 
@@ -204,6 +192,12 @@ Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰�
 [yolo 系列部署 tensorRT 部署](https://github.com/shouxieai/tensorRT_Pro)
 
 [我自己的 ROS Lidar Perception TensorRT部署](https://github.com/PeterJaq/lidar_perception)
+
+[Lite.ai](https://github.com/DefTruth/lite.ai)
+该项目提供了一系列轻量级的目标检测语义分割任务的整合框架支持 YOLOX🔥, YoloR🔥, YoloV5, YoloV4, DeepLabV3, ArcFace, CosFace, RetinaFace, SSD, etc.
+
+[multi-attention -> onnx](https://github.com/liudaizong/CSMGAN/blob/51348c805e83cf4b1c791592d329851a8e2186aa/code/modules_/multihead_attention.py)
+提供了一个多头注意力机制支持onnx部署的方式
 
 ## 其他组件
 
