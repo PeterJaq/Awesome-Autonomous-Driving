@@ -55,22 +55,22 @@ This project will be periodically updated with quality projects and papers relat
 ### 2.2 Calibration Tools
 *参数标定工具*
 
-- [OpenCalib](https://github.com/PJLab-ADG/SensorsCalibration)
+- [OpenCalib](https://github.com/PJLab-ADG/SensorsCalibration) - 
 **ALL in One** 商汤开源的自动驾驶多传感器的一个开源标定工具箱，基本涵盖了大部分的自动驾驶标定场景。
 
-- [camera-calibration](https://github.com/LittleAprilFool/camera-calibration)
+- [camera-calibration](https://github.com/LittleAprilFool/camera-calibration) -
 能够比较好的阐述相机标定具体步骤和原理的
 
-- [CameraCalibration](https://github.com/dyfcalid/CameraCalibration)
+- [CameraCalibration](https://github.com/dyfcalid/CameraCalibration) - 
 这个项目集合了相机标定相关的多个脚本工具，便于完成完整的车载环视相机标定流程
 
-- [ros-camera-lidar-calibration](https://github.com/swyphcosmo/ros-camera-lidar-calibration)
+- [ros-camera-lidar-calibration](https://github.com/swyphcosmo/ros-camera-lidar-calibration) -
 相机内参标定与相机lidar外参标定
 
-- [lidar_IMU_calib](https://github.com/APRIL-ZJU/lidar_IMU_calib)
+- [lidar_IMU_calib](https://github.com/APRIL-ZJU/lidar_IMU_calib) -
 Lidar IMU 的标定工具
 
-- [sync_gps_lidar_imu_cam](https://github.com/nkliuhui/sync_gps_lidar_imu_cam)
+- [sync_gps_lidar_imu_cam](https://github.com/nkliuhui/sync_gps_lidar_imu_cam) -
 lidar-imu-cam-GPS时间戳硬件同步方案
 
 ## 2D检测
