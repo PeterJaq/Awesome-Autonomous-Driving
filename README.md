@@ -8,9 +8,9 @@ This project will be periodically updated with quality projects and papers relat
 
 ## Contents
 - [Contents](#contents)
-- [1. Autonomous Driving Midleware and Integrated Solutions(中间件与解决方案)](#解决方案)
-  - [1.1 Midelware(中间件)](#中间件)
-  - [1.2 Integrated Solutions(解决方案)](#解决方案)
+- [1. Autonomous Driving Midleware and Integrated Solutions(中间件与解决方案)](#1-autonomous-driving-midleware-and-integrated-solutions)
+  - [1.1 Midelware(中间件)](#11-midelware)
+  - [1.2 Integrated Solutions(解决方案)](#12-integrated-solutions)
 - [2. Sensor and Calibration Tools(传感器与参数标定)](#2-sensor-and-calibration-tools)
   - [2.1 Sensor Hardware(传感器硬件)](#21-sensor-hardware)
   - [2.2 Calibration Tools(参数标定工具)](#22-calibration-tools)
@@ -30,6 +30,21 @@ This project will be periodically updated with quality projects and papers relat
 - [10. Data Loop(数据闭环)](#10-Data-Loop(数据闭环))
 - [11. Simulation(仿真)](#11-Simulation(仿真))
 - [12. Others(其他更好的)](#12-Others(其他更好的))
+
+## 1. Autonomous Driving Midleware and Integrated Solutions
+
+### 1.1 Midelware
+*中间件*
+### 1.2 Integrated Solutions
+*解决方案*
+
+- [Apollo](https://github.com/ApolloAuto/apollo) - The intergrated solution from [baidu](www.baidu.com).
+- [Autoware.ai](https://github.com/Autoware-AI/) - Open-source software for self-driving vehicles known as Autoware-1.
+- [Autoware.auto](https://gitlab.com/autowarefoundation/autoware.auto) - Open-source software for self-driving vehicles known as Autoware-2.
+- [AutowareArchitectureProposal.proj](https://github.com/tier4/AutowareArchitectureProposal.proj) - Manages several projects related to self-driving vehicles. 
+- [self-driving-ish_computer_vision_system](https://github.com/iwatake2222/self-driving-ish_computer_vision_system) - This project generates images you've probably seen in autonomous driving demo
+- [Aslan](https://github.com/project-aslan/Aslan) - An open-source full-stack software based on ROS framework.
+- [AutoC2X-AW](https://github.com/esakilab/AutoC2X-AW) - Extension for Autoware and OpenC2X
 
 ## 2. Sensor and Calibration Tools
 ### 2.1 Sensor Hardware
@@ -171,14 +186,7 @@ Cam2BEV一个将多路周视摄像头的语义分割结果融合在一个鸟瞰�
 **学习资料** 一个直观的路径规划常见规划算法的可视化与基本代码实现
 
 
-## 框架与解决方案
 
-[Apollo](https://github.com/ApolloAuto/apollo)
-百度apollo构建的平台
-
-[Autoware.auto]
-
-[Autoware.ai]
 
 ## 算法部署方案
 [nvidia 官方 pointpillars TensorRT示例](https://github.com/NVIDIA-AI-IOT/CUDA-PointPillars)
