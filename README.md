@@ -12,8 +12,8 @@ This project will be periodically updated with quality projects and papers relat
   - [1.1 Midelware(中间件)](#中间件)
   - [1.2 Integrated Solutions(解决方案)](#解决方案)
 - [2. Sensor and Calibration Tools(传感器与参数标定)](#硬件与参数标定)
-  - [2.1 Sensor Hardware(传感器硬件)](#2-1-Sensor Hardware(传感器硬件))
-  - [2.2 Calibration Tools(参数标定工具)](#2-2-Calibration Tools(参数标定工具))
+  - [2.1 Sensor Hardware(传感器硬件)](#21-Sensor Hardware(传感器硬件))
+  - [2.2 Calibration Tools(参数标定工具)](#22-Calibration Tools(参数标定工具))
 - [3. Perception]
   - [3.1 Detection]
     - [3.1.1 Vision based]
