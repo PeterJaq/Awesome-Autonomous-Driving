@@ -27,11 +27,11 @@ Now I am re-orging this project.
 - [5. Localization and SLAM(定位与SLAM)](#5-localization-and-slam)
 - [6. Planning]
 - [7. Control]
-- [8. Dataset and Competition(数据集与竞赛)](#8-Dataset-and-Competition(数据集与竞赛))
-- [9. Visualization(可视化工具)](#9-Visualization(可视化工具))
-- [10. Data Loop(数据闭环)](#10-Data-Loop(数据闭环))
-- [11. Simulation(仿真)](#11-Simulation(仿真))
-- [12. Others(其他更好的)](#12-Others(其他更好的))
+- [8. Dataset and Competition(数据集与竞赛)](#8-Dataset-and-Competition)
+- [9. Visualization(可视化工具)](#9-Visualization)
+- [10. Data Loop(数据闭环)](#10-Data-Loop)
+- [11. Simulation(仿真)](#11-Simulation)
+- [12. Others(其他更好的)](#12-Others)
 
 ## 1. Autonomous Driving Midleware and Integrated Solutions
 
@@ -55,14 +55,14 @@ Now I am re-orging this project.
 ### 2.1 Sensor Hardware
 *传感器硬件*
 
-  ** LiDAR ** 
+  **LiDAR** 
   
   - [velodyne](https://github.com/ros-drivers/velodyne) - velodyne lidar driver for ros.
   - [livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) - livox (a low cost lidar form [DJI](https://www.dji.com/cn)) lidar driver.
   - [rslidar_sdk](https://github.com/RoboSense-LiDAR/rslidar_sdk) - lidar driver from [Robosense](https://www.robosense.ai).
   - [ros2_ouster_drivers](https://github.com/ros-drivers/ros2_ouster_drivers) - ROS2 Drivers for the [Ouster](https://www.ouster.com) OS-0, OS-1, and OS-2 Lidars. 
 
- ** Camera ** 
+ **Camera** 
  
   - [miivii_gmsl_camera](https://github.com/MiiViiDynamics/miivii_gmsl_camera) - [米文](https://www.miivii.com/)摄像头
   - [sensing](https://www.sensing-world.com/) - [森云](https://www.sensing-world.com/) - 森云摄像头
@@ -70,12 +70,12 @@ Now I am re-orging this project.
   - [usb_cam](https://github.com/ros-drivers/usb_cam) - all most ros1 usb camera driver you can buy from Taobao/Aliexpress.
   - [ros2_usb_camera](https://github.com/klintan/ros2_usb_camera) - all most ros2 usb camera driver you can buy from Taobao/Aliexpress.
 
- ** GPS/IMU ** 
+ **GPS/IMU** 
  
   - [huace](https://www.huace.cn) - 华测组合导航产品
   - [novatel_gps_driver](https://github.com/swri-robotics/novatel_gps_driver) - C++ ROS driver for NovAtel GPS / GNSS Receivers.
  
- ** MCU **
+ **MCU**
  
   - [STM32Cube_MCU_Overall_Offer](https://github.com/STMicroelectronics/STM32Cube_MCU_Overall_Offer) - The open source offer for the STM32 MCU products.
 
@@ -133,18 +133,36 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [Complex-YOLO](https://github.com/maudzung/Complex-YOLOv4-Pytorch)
   - [PointRCNN](https://github.com/sshaoshuai/PointRCNN)
 
-### 3.1 Tracking
+### 3.2 Tracking
 *追踪算法*
 
 - [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch) 基于yolo-v5的目标追踪
 
+### 3.3 High Performance Inference
+*高性能推理*
 
+**视觉系列**
+- [Lite.ai](https://github.com/DefTruth/lite.ai) -
+该项目提供了一系列轻量级的目标检测语义分割任务的整合框架支持 YOLOX🔥, YoloR🔥, YoloV5, YoloV4, DeepLabV3, ArcFace, CosFace, RetinaFace, SSD, etc.
+- [multi-attention -> onnx](https://github.com/liudaizong/CSMGAN/blob/51348c805e83cf4b1c791592d329851a8e2186aa/code/modules_/multihead_attention.py) -   
+提供了一个多头注意力机制支持onnx部署的方式
 
+**LiDAR Pillars系列**
+- [CUDA-PointPillars](https://github.com/NVIDIA-AI-IOT/CUDA-PointPillars) - NV官方PointPillars部署方案
+- [nutonomy_pointpillars](https://github.com/SmallMunich/nutonomy_pointpillars) - PointPillars
+- [mmdet3d_onnx_tools](https://github.com/speshowBUAA/mmdet3d_onnx_tools) - PointPillars
+- [CenterPoint](https://github.com/CarkusL/CenterPoint) - CenterPoint-PonintPillars 
+- [PointPillars_MultiHead_40FPS](https://github.com/hova88/PointPillars_MultiHead_40FPS) - MultiHead PointPillars
+- [我自己的 ROS Lidar Perception TensorRT部署](https://github.com/PeterJaq/lidar_perception)
 
-## 数据迭代与闭环
+## 4. Pridection
 
-[Discriminative Active Learning] https://github.com/dsgissin/DiscriminativeActiveLearning
-**主动学习**
+- [An Auto-tuning Framework for Autonomous Vehicles] (https://arxiv.org/pdf/1808.04913.pdf)
+- [VectorNet](https://github.com/Liang-ZX/VectorNet.git) -
+来自[VectorNet: Encoding HD Maps and Agent Dynamics from Vectorized Representation](https://arxiv.org/abs/2005.04259)利用高精地图 -与目标物信息进对目标进行行为预测。apollo在7.0版本的行为预测部分的encoder利用了这个vectornet.
+- [TNT](https://github.com/Henry1iu/TNT-Trajectory-Predition) - TNT是一种基于历史数据（即多代理和环境之间交互）生成目标的轨迹状态序列方法，并基于似然估计得到紧凑的轨迹预测集。
+[TNT: Target-driveN Trajectory Prediction](https://arxiv.org/pdf/2008.08294.pdf) apollo在7.0版本的行为预测模块inter-TNT的轨迹生成利用了TNT的方法.
+
 
 ## 5 Localization and SLAM
   *Localization*
@@ -165,93 +183,43 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [Livox-Mapping]https://github.com/PJLab-ADG/Livox-Mapping - **Livox + IMU + SC  ** 一款基于Livox的mapping工具包，在先前的工具上添加了SC和Fastlio的一些特性 
 
 
-## 行为预测
+## 6. Planning
+*规划*
+- [自动驾驶中的决策规划算法概述](https://www.jiqizhixin.com/articles/2019-07-22)
+- [有限状态机](https://en.wikipedia.org/wiki/Finite-state_machine)
+- [MPC](https://en.wikipedia.org/wiki/Model_predictive_control)
+- [PathPlanning]https://github.com/zhm-real/PathPlanning
 
-[An Auto-tuning Framework for Autonomous Vehicles] (https://arxiv.org/pdf/1808.04913.pdf)
+## 7. Control
+*控制*
+- [PID](https://en.wikipedia.org/wiki/PID_controller)
 
-[VectorNet](https://github.com/Liang-ZX/VectorNet.git)
-来自[VectorNet: Encoding HD Maps and Agent Dynamics from Vectorized Representation](https://arxiv.org/abs/2005.04259)的复现项目，利用高精地图与目标物信息进对目标进行行为预测。apollo在7.0版本的行为预测部分的encoder利用了这个vectornet.
+## 9.  Dataset and Competition
+*数据集与竞赛*
 
-[TNT](https://github.com/Henry1iu/TNT-Trajectory-Predition)TNT是一种基于历史数据（即多代理和环境之间交互）生成目标的轨迹状态序列方法，并基于似然估计得到紧凑的轨迹预测集。
-[TNT: Target-driveN Trajectory Prediction](https://arxiv.org/pdf/2008.08294.pdf) apollo在7.0版本的行为预测模块inter-TNT的轨迹生成利用了TNT的方法.
+- [KITTI](http://www.cvlibs.net/datasets/kitti/)
+- [BDD100k](https://www.bdd100k.com/)
+- [UrbanNav](https://github.com/weisongwen/UrbanNavDataset) - 一个在亚洲城市峡谷（包括东京和香港）收集的开源本地化数据集,主要用于解决定位算法的各种问题。
+- [ONCE](https://once-for-auto-driving.github.io)
+- [SODA10M](https://soda-2d.github.io/)
+- [OPV2V](https://mobility-lab.seas.ucla.edu/opv2v/) - 首个大型自动驾驶协同感知数据集 + banchmark代码框架, 由UCLA提供
 
-## 规划与控制
+## 10. Data Loop
+*数据闭环*
 
-[自动驾驶中的决策规划算法概述](https://www.jiqizhixin.com/articles/2019-07-22)
-**学习资料** 
-[PID](https://en.wikipedia.org/wiki/PID_controller)
-**学习资料**
-[有限状态机](https://en.wikipedia.org/wiki/Finite-state_machine)
-**学习资料**
-[MPC](https://en.wikipedia.org/wiki/Model_predictive_control)
-**学习资料**
-[PathPlanning]https://github.com/zhm-real/PathPlanning
-**学习资料** 一个直观的路径规划常见规划算法的可视化与基本代码实现
+**主动学习**
 
+- [Discriminative Active Learning] https://github.com/dsgissin/DiscriminativeActiveLearning
 
+## 11. Visualization
+*可视化工具*
 
-
-## 算法部署方案
-[nvidia 官方 pointpillars TensorRT示例](https://github.com/NVIDIA-AI-IOT/CUDA-PointPillars)
-
-[大神 multi-head pointpillars TensorRT部署](https://github.com/hova88/PointPillars_MultiHead_40FPS)
-
-[yolo 系列部署 tensorRT 部署](https://github.com/shouxieai/tensorRT_Pro)
-
-[我自己的 ROS Lidar Perception TensorRT部署](https://github.com/PeterJaq/lidar_perception)
-
-[Lite.ai](https://github.com/DefTruth/lite.ai)
-该项目提供了一系列轻量级的目标检测语义分割任务的整合框架支持 YOLOX🔥, YoloR🔥, YoloV5, YoloV4, DeepLabV3, ArcFace, CosFace, RetinaFace, SSD, etc.
-
-[multi-attention -> onnx](https://github.com/liudaizong/CSMGAN/blob/51348c805e83cf4b1c791592d329851a8e2186aa/code/modules_/multihead_attention.py)
-提供了一个多头注意力机制支持onnx部署的方式
-
-## 其他组件
-
-[Carla-birdeye-view](https://github.com/deepsense-ai/carla-birdeye-view)
-可以对接carla的自动驾驶鸟瞰图组件。
-
-[Uber AVS](https://avs.auto/#/)
-自动驾驶可视化前端组件 xviz 与 streetscape.gl 
-
-[Cruise](https://webviz.io/worldview/#/)
-Cruise 开源的一款自动驾驶前端可视化套件
-
-## 9. 数据集与比赛
-[KITTI](http://www.cvlibs.net/datasets/kitti/)
-
-[BDD100k](https://www.bdd100k.com/)
-
-[UrbanNav](https://github.com/weisongwen/UrbanNavDataset)
-一个在亚洲城市峡谷（包括东京和香港）收集的开源本地化数据集,主要用于解决定位算法的各种问题。
-
-[ONCE](https://once-for-auto-driving.github.io)
-
-[SODA10M](https://soda-2d.github.io/)
-
-[OPV2V](https://mobility-lab.seas.ucla.edu/opv2v/)
-首个大型自动驾驶协同感知数据集 + banchmark代码框架, 由UCLA提供
-
-## 模型部署
-[Model_Inference_Deployment](https://github.com/Yulv-git/Model_Inference_Deployment)一个的深度学习部署方案汇总
-
-### Pillars 系列
-
-[CUDA-PointPillars](https://github.com/NVIDIA-AI-IOT/CUDA-PointPillars) NV官方PointPillars部署方案
-
-[nutonomy_pointpillars](https://github.com/SmallMunich/nutonomy_pointpillars) PointPillars
-
-[mmdet3d_onnx_tools](https://github.com/speshowBUAA/mmdet3d_onnx_tools) PointPillars
-
-[CenterPoint](https://github.com/CarkusL/CenterPoint)  CenterPoint-PonintPillars 
-
-[PointPillars_MultiHead_40FPS](https://github.com/hova88/PointPillars_MultiHead_40FPS) MultiHead PointPillars
+- [Carla-birdeye-view](https://github.com/deepsense-ai/carla-birdeye-view) - 可以对接carla的自动驾驶鸟瞰图组件。
+- [Uber AVS](https://avs.auto/#/) - 自动驾驶可视化前端组件 xviz 与 streetscape.gl 
+- [Cruise](https://webviz.io/worldview/#/) - Cruise 开源的一款自动驾驶前端可视化套件
 
 
-## 其他更好的分享
-
-
-[awesome-3D-object-detection] (https://github.com/Tom-Hardy-3D-Vision-Workshop/awesome-3D-object-detection)
-
-[3D-ObjectDetection-and-Pose-Estimation](https://github.com/littlebearsama/3D-ObjectDetection-and-Pose-Estimation)
-物体检测与位姿估计
+## 12. Others
+*其他更好的分享*
+- [awesome-3D-object-detection] (https://github.com/Tom-Hardy-3D-Vision-Workshop/awesome-3D-object-detection)
+- [3D-ObjectDetection-and-Pose-Estimation](https://github.com/littlebearsama/3D-ObjectDetection-and-Pose-Estimation) -物体检测与位姿估计
