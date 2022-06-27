@@ -19,11 +19,11 @@ Now I am re-orging this project.
 - [3. Perception](#3-perception)
   - [3.1 Detection](#31-detection)
     - [3.1.1 Vision based](#311-vision-based)
-    - [3.1.2 Lidar based]
-    - [3.1.3 Radar based]
-    - [3.1.4 Multimodal Fusion]
-  - [3.2 Tracking]
-- [4. Pridection]
+    - [3.1.2 Lidar based](#312-lidar-based)
+    - [3.1.3 Radar based](#313-radar-based)
+    - [3.1.4 Multimodal Fusion](#314-multimodal-fusion)
+  - [3.2 Tracking](#32-tracking)
+- [4. Prediction](#4-prediction)
 - [5. Localization and SLAM(定位与SLAM)](#5-localization-and-slam)
 - [6. Planning]
 - [7. Control]
@@ -148,6 +148,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 提供了一个多头注意力机制支持onnx部署的方式
 
 **LiDAR Pillars系列**
+
 - [CUDA-PointPillars](https://github.com/NVIDIA-AI-IOT/CUDA-PointPillars) - NV官方PointPillars部署方案
 - [nutonomy_pointpillars](https://github.com/SmallMunich/nutonomy_pointpillars) - PointPillars
 - [mmdet3d_onnx_tools](https://github.com/speshowBUAA/mmdet3d_onnx_tools) - PointPillars
@@ -155,7 +156,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [PointPillars_MultiHead_40FPS](https://github.com/hova88/PointPillars_MultiHead_40FPS) - MultiHead PointPillars
 - [我自己的 ROS Lidar Perception TensorRT部署](https://github.com/PeterJaq/lidar_perception)
 
-## 4. Pridection
+## 4. Prediction
 
 - [An Auto-tuning Framework for Autonomous Vehicles] (https://arxiv.org/pdf/1808.04913.pdf)
 - [VectorNet](https://github.com/Liang-ZX/VectorNet.git) -
