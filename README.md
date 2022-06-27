@@ -25,8 +25,8 @@ Now I am re-orging this project.
   - [3.2 Tracking](#32-tracking)
 - [4. Prediction](#4-prediction)
 - [5. Localization and SLAM(定位与SLAM)](#5-localization-and-slam)
-- [6. Planning]
-- [7. Control]
+- [6. Planning](#6-planning)
+- [7. Control](#7-control)
 - [8. Dataset and Competition(数据集与竞赛)](#8-Dataset-and-Competition)
 - [9. Visualization(可视化工具)](#9-Visualization)
 - [10. Data Loop(数据闭环)](#10-Data-Loop)
@@ -181,15 +181,17 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM) - **Lidar** LeGO-LOAM是以LOAM为框架而衍生出来的新的框架。其与LOAM相比，更改了特征点的提取形式，添加了后端优化，因此，构建出来的地图就更加的完善。
 - [SC-LeGO-LOAM](https://github.com/irapkaist/SC-LeGO-LOAM) - **Lidar** LeGO-LOAM的基于全局描述子Scan Context的回环检测
 - [SC-LIO-SAM](https://github.com/gisbi-kim/SC-LIO-SAM) - **Lidar + Camera** LIO-SAM的基于全局描述子Scan Context的回环检测
-- [Livox-Mapping]https://github.com/PJLab-ADG/Livox-Mapping - **Livox + IMU + SC  ** 一款基于Livox的mapping工具包，在先前的工具上添加了SC和Fastlio的一些特性 
-
-
+- [Livox-Mapping](https://github.com/PJLab-ADG/Livox-Mapping) - **Livox + IMU + SC  ** 一款基于Livox的mapping工具包，在先前的工具上添加了SC和Fastlio的一些特性 
+- [Fast-LIO](https://github.com/hku-mars/FAST_LIO) - 目前最好用的前端里程计之一，几乎同时兼具速度与鲁棒性
+- [Faster-LIO](https://github.com/gaoxiang12/faster-lio) - 比Fast LIO快1-1.5倍的前端里程计
+- [SC-A-LOAM](https://github.com/gisbi-kim/SC-A-LOAM) - Scancontext + 现在的SOTA里程计(Lego-loam, fast lio, a loam etc.)
+- 
 ## 6. Planning
 *规划*
 - [自动驾驶中的决策规划算法概述](https://www.jiqizhixin.com/articles/2019-07-22)
 - [有限状态机](https://en.wikipedia.org/wiki/Finite-state_machine)
 - [MPC](https://en.wikipedia.org/wiki/Model_predictive_control)
-- [PathPlanning]https://github.com/zhm-real/PathPlanning
+- [PathPlanning](https://github.com/zhm-real/PathPlanningt)
 
 ## 7. Control
 *控制*
@@ -210,7 +212,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 
 **主动学习**
 
-- [Discriminative Active Learning] https://github.com/dsgissin/DiscriminativeActiveLearning
+- [Discriminative Active Learning](https://github.com/dsgissin/DiscriminativeActiveLearning)
 
 ## 11. Visualization
 *可视化工具*
