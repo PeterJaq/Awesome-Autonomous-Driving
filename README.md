@@ -224,5 +224,5 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 
 ## 12. Others
 *其他更好的分享*
-- [awesome-3D-object-detection] (https://github.com/Tom-Hardy-3D-Vision-Workshop/awesome-3D-object-detection)
+- [awesome-3D-object-detection](https://github.com/Tom-Hardy-3D-Vision-Workshop/awesome-3D-object-detection)
 - [3D-ObjectDetection-and-Pose-Estimation](https://github.com/littlebearsama/3D-ObjectDetection-and-Pose-Estimation) -物体检测与位姿估计
