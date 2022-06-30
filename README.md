@@ -131,8 +131,12 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   
   - [Voxelnet](https://github.com/steph1793/Voxelnet)
   - [Complex-YOLO](https://github.com/maudzung/Complex-YOLOv4-Pytorch)
-  - [PointRCNN](https://github.com/sshaoshuai/PointRCNN)
-
+  - [PointRCNN](https://github.com/sshaoshuai/PointRCNN) 
+  - [CenterPoint](https://github.com/tianweiy/CenterPoint) - 3D Object Detection and Tracking using center points in the bird-eye view.
+  - [PartA2-Net](https://github.com/sshaoshuai/PartA2-Net) - From Points to Parts: 3D Object Detection from Point Cloud with Part-aware and Part-aggregation Network.
+  - [CIA-SSD](https://github.com/Vegeta2020/CIA-SSD) - Confident IoU-Aware Single Stage Object Detector From Point Cloud.
+  - [3DIoUMatch-PVRCNN](https://github.com/THU17cyz/3DIoUMatch-PVRCNN) - 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection.
+  
 ### 3.2 Tracking
 *追踪算法*
 
@@ -155,6 +159,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [CenterPoint](https://github.com/CarkusL/CenterPoint) - CenterPoint-PonintPillars 
 - [PointPillars_MultiHead_40FPS](https://github.com/hova88/PointPillars_MultiHead_40FPS) - MultiHead PointPillars
 - [我自己的 ROS Lidar Perception TensorRT部署](https://github.com/PeterJaq/lidar_perception)
+- [CenterPoint](https://github.com/Abraham423/CenterPoint) - CenterPoint 推理方案 ROS
 
 ## 4. Prediction
 
