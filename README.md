@@ -192,10 +192,46 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [有限状态机](https://en.wikipedia.org/wiki/Finite-state_machine)
 - [MPC](https://en.wikipedia.org/wiki/Model_predictive_control)
 - [PathPlanning](https://github.com/zhm-real/PathPlanningt)
+- [pacmod](https://github.com/astuff/pacmod) -  Designed to allow the user to control a vehicle with the PACMod drive-by-wire system.
+- [rrt](https://github.com/RoboJackets/rrt) - C++ RRT (Rapidly-exploring Random Tree) implementation.
+- [HypridAStarTrailer](https://github.com/AtsushiSakai/HybridAStarTrailer) - A path planning algorithm based on Hybrid A* for trailer truck.
+- [path_planner](https://github.com/karlkurzer/path_planner) - Hybrid A* Path Planner for the KTH Research Concept Vehicle.
+- [fastrack](https://github.com/HJReachability/fastrack) - A ROS implementation of Fast and Safe Tracking (FaSTrack).
+- [commonroad](https://commonroad.in.tum.de/) - Composable benchmarks for motion planning on roads.
+- [traffic-editor](https://github.com/osrf/traffic-editor) - A graphical editor for robot traffic flows.
+- [steering_functions](https://github.com/hbanzhaf/steering_functions) - Contains a C++ library that implements steering functions for car-like robots with limited turning radius.
+- [moveit](https://moveit.ros.org/) - Easy-to-use robotics manipulation platform for developing applications, evaluating designs, and building integrated products.
+- [flexible-collision-library](https://github.com/flexible-collision-library/fcl) - A library for performing three types of proximity queries on a pair of geometric models composed of triangles.
+- [aikido](https://github.com/personalrobotics/aikido) - Artificial Intelligence for Kinematics, Dynamics, and Optimization.
+- [casADi](https://github.com/casadi/casadi) - A symbolic framework for numeric optimization implementing automatic differentiation in forward and reverse modes on sparse matrix-valued computational graphs.
+- [ACADO Toolkit](https://github.com/acado/acado) - A software environment and algorithm collection for automatic control and dynamic optimization.
+- [CrowdNav](https://github.com/vita-epfl/CrowdNav) - Crowd-aware Robot Navigation with Attention-based Deep Reinforcement Learning.
+- [ompl](https://github.com/ompl/ompl) - Consists of many state-of-the-art sampling-based motion planning algorithms.
+- [openrave](https://github.com/rdiankov/openrave) - Open Robotics Automation Virtual Environment: An environment for testing, developing, and deploying robotics motion planning algorithms.
+- [teb_local_planner](https://github.com/rst-tu-dortmund/teb_local_planner) - An optimal trajectory planner considering distinctive topologies for mobile robots based on Timed-Elastic-Bands.
+- [pinocchio](https://github.com/stack-of-tasks/pinocchio) - A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives.
+- [rmf_core](https://github.com/osrf/rmf_core) - The rmf_core packages provide the centralized functions of the Robotics Middleware Framework (RMF).
+- [global_racetrajectory_optimization](https://github.com/TUMFTM/global_racetrajectory_optimization) - This repository contains multiple approaches for generating global racetrajectories.
+- [toppra](https://github.com/hungpham2511/toppra) - A library for computing the time-optimal path parametrization for robots subject to kinematic and dynamic constraints.
+- [tinyspline](https://github.com/msteinbeck/tinyspline) - TinySpline is a small, yet powerful library for interpolating, transforming, and querying arbitrary NURBS, B-Splines, and Bézier curves.
+- [dual quaternions ros](https://github.com/Achllle/dual_quaternions_ros) - ROS python package for dual quaternion SLERP.
+- [mb planner](https://github.com/unr-arl/mbplanner_ros) - Aerial vehicle planner for tight spaces. Used in DARPA SubT Challenge.
+- [ilqr](https://github.com/anassinator/ilqr) - Iterative Linear Quadratic Regulator with auto-differentiatiable dynamics models.
+- [EGO-Planner](https://github.com/ZJU-FAST-Lab/ego-planner) - A lightweight gradient-based local planner without ESDF construction, which significantly reduces computation time compared to some state-of-the-art methods.
+- [pykep](https://github.com/esa/pykep) - A scientific library providing basic tools for research in interplanetary trajectory design.
+- [am_traj](https://github.com/ZJU-FAST-Lab/am_traj) - Alternating Minimization Based Trajectory Generation for Quadrotor Aggressive Flight.
+- [GraphBasedLocalTrajectoryPlanner](https://github.com/TUMFTM/GraphBasedLocalTrajectoryPlanner) - Was used on a real race vehicle during the Roborace Season Alpha and achieved speeds above 200km/h.
+- [Ruckig](https://ruckig.com) - Instantaneous Motion Generation. Real-time. Jerk-constrained. Time-optimal.
 
 ## 7. Control
 *控制*
 - [PID](https://en.wikipedia.org/wiki/PID_controller)
+- [Open Source Car Control](https://github.com/PolySync/oscc) -  An assemblage of software and hardware designs that enable computer control of modern cars in order to facilitate the development of autonomous vehicle technology.
+- [control-toolbox](https://github.com/ethz-adrl/control-toolbox) - An efficient C++ library for control, estimation, optimization and motion planning in robotics.
+- [mpcc](https://github.com/alexliniger/MPCC) - Model Predictive Contouring Controller for Autonomous Racing.
+- [open_street_map](https://github.com/ros-geographic-info/open_street_map) - ROS packages for working with Open Street Map geographic information.
+- [autogenu-jupyter](https://github.com/mayataka/autogenu-jupyter) - This project provides the continuation/GMRES method (C/GMRES method) based solvers for nonlinear model predictive control (NMPC) and an automatic code generator for NMPC.
+- [OpEn](https://github.com/alphaville/optimization-engine) - A solver for Fast & Accurate Embedded Optimization for next-generation Robotics and Autonomous Systems.
 
 ## 9.  Dataset and Competition
 *数据集与竞赛*
