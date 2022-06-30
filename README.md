@@ -162,7 +162,14 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [VectorNet](https://github.com/Liang-ZX/VectorNet.git) -
 来自[VectorNet: Encoding HD Maps and Agent Dynamics from Vectorized Representation](https://arxiv.org/abs/2005.04259)利用高精地图 -与目标物信息进对目标进行行为预测。apollo在7.0版本的行为预测部分的encoder利用了这个vectornet.
 - [TNT](https://github.com/Henry1iu/TNT-Trajectory-Predition) - TNT是一种基于历史数据（即多代理和环境之间交互）生成目标的轨迹状态序列方法，并基于似然估计得到紧凑的轨迹预测集。
-[TNT: Target-driveN Trajectory Prediction](https://arxiv.org/pdf/2008.08294.pdf) apollo在7.0版本的行为预测模块inter-TNT的轨迹生成利用了TNT的方法.
+- [DESIRE](https://github.com/tdavchev/DESIRE) - DESIRE: Distant Future Prediction in Dynamic Scenes with Interacting Agents 
+- [TNT: Target-driveN Trajectory Prediction](https://arxiv.org/pdf/2008.08294.pdf) apollo在7.0版本的行为预测模块inter-TNT的轨迹生成利用了TNT的方法.
+- [MultiPath++](https://github.com/stepankonev/waymo-motion-prediction-challenge-2022-multipath-plus-plus) - Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction.
+- [MotionCNN](https://github.com/kbrodt/waymo-motion-prediction-2021) - A Strong Baseline for Motion Prediction in Autonomous Driving.
+- [WAT](https://github.com/wei-mao-2019/wat) - Weakly-supervised Action Transition Learning for Stochastic Human Motion Prediction.
+- [BEVerse](https://github.com/zhangyp15/beverse) - Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving.
+- [ParkPredict+](https://github.com/xushenlz/parksim) - Vehicle simualtion and behavior prediction in parking lots.
+- [HiVT](https://github.com/ZikangZhou/HiVT) - Hierarchical Vector Transformer for Multi-Agent Motion Prediction
 
 
 ## 5 Localization and SLAM
