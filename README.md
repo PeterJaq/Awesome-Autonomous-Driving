@@ -141,8 +141,9 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 
 ### 3.2 Tracking
 *追踪算法*
-
-- [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch) 基于yolo-v5的目标追踪
+- [SimpleTrack](https://github.com/TuSimple/SimpleTrack) - Simple yet Effective 3D Multi-object Tracking.
+- [ImmortalTracker](https://github.com/ImmortalTracker/ImmortalTracker) - Our mismatch ratio is tens of times lower than any previously published method.
+- [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch) - 基于yolo-v5的目标追踪
 
 ### 3.3 High Performance Inference
 *高性能推理*
