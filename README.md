@@ -138,6 +138,9 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [CIA-SSD](https://github.com/Vegeta2020/CIA-SSD) - Confident IoU-Aware Single Stage Object Detector From Point Cloud.
   - [3DIoUMatch-PVRCNN](https://github.com/THU17cyz/3DIoUMatch-PVRCNN) - 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection.
   - [SFA3D](https://github.com/maudzung/SFA3D) - Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds.
+  - [Auto4D](https://arxiv.org/pdf/2101.06586v1.pdf) - Auto4D: Learning to Label 4D Objects from Sequential Point Clouds. 
+  - [3DAL](https://arxiv.org/abs/2103.05073) - Offboard 3D Object Detection from Point Cloud Sequences
+
 
 ### 3.2 Tracking
 *追踪算法*
