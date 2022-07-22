@@ -104,6 +104,9 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 ### 3.1.1 Vision based
 *基于视觉*
 
+  ** BackBone **
+  - [Next-ViT](https://arxiv.org/pdf/2207.05501.pdf) 来自字节面向工业界的新一代Transform模型部署。
+
   **Lane Detection**
    
   - [Advanced-Lane-Detection](https://github.com/uranus4ever/Advanced-Lane-Detection) - 一个非常适合新人的车道检测任务的小demo
@@ -156,6 +159,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 该项目提供了一系列轻量级的目标检测语义分割任务的整合框架支持 YOLOX🔥, YoloR🔥, YoloV5, YoloV4, DeepLabV3, ArcFace, CosFace, RetinaFace, SSD, etc.
 - [multi-attention -> onnx](https://github.com/liudaizong/CSMGAN/blob/51348c805e83cf4b1c791592d329851a8e2186aa/code/modules_/multihead_attention.py) -   
 提供了一个多头注意力机制支持onnx部署的方式
+- [TRT ViT](https://arxiv.org/pdf/2205.09579.pdf) 字节跳动提出的面向工业界部署的ViT
 
 **LiDAR Pillars系列**
 
