@@ -104,9 +104,9 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 ### 3.1.1 Vision based
 *基于视觉*
 
-  ** BackBone **
+  **BackBone**
   - [Next-ViT](https://arxiv.org/pdf/2207.05501.pdf) 来自字节面向工业界的新一代Transform模型部署。
-
+  - [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) 伪装成Conv的Transform
   **Lane Detection**
    
   - [Advanced-Lane-Detection](https://github.com/uranus4ever/Advanced-Lane-Detection) - 一个非常适合新人的车道检测任务的小demo
