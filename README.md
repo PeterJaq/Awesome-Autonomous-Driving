@@ -108,6 +108,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [Next-ViT](https://arxiv.org/pdf/2207.05501.pdf) 来自字节面向工业界的新一代Transform模型部署。
   - [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) 伪装成Conv的Transform
   - [CoAtNet](https://arxiv.org/pdf/2106.04803.pdf)
+  - [FocalsConv](https://github.com/dvlab-research/FocalsConv) Focal Sparse Convolutional
 
   **Lane Detection**
    
