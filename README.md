@@ -109,8 +109,9 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) 伪装成Conv的Transform
   - [CoAtNet](https://arxiv.org/pdf/2106.04803.pdf)
   - [FocalsConv](https://github.com/dvlab-research/FocalsConv) Focal Sparse Convolutional
+  - [LIFT](https://openaccess.thecvf.com/content/CVPR2022/html/Zeng_LIFT_Learning_4D_LiDAR_Image_Fusion_Transformer_for_3D_Object_CVPR_2022_paper.html) LIFT: Learning 4D LiDAR Image Fusion Transformer for 3D Object Detection
 
-  **Lane Detection**
+**Lane Detection**
    
   - [Advanced-Lane-Detection](https://github.com/uranus4ever/Advanced-Lane-Detection) - 一个非常适合新人的车道检测任务的小demo
   - [RESA](https://github.com/ZJULearning/resa)
