@@ -109,7 +109,6 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) 伪装成Conv的Transform
   - [CoAtNet](https://arxiv.org/pdf/2106.04803.pdf)
   - [FocalsConv](https://github.com/dvlab-research/FocalsConv) Focal Sparse Convolutional
-  - [LIFT](https://openaccess.thecvf.com/content/CVPR2022/html/Zeng_LIFT_Learning_4D_LiDAR_Image_Fusion_Transformer_for_3D_Object_CVPR_2022_paper.html) LIFT: Learning 4D LiDAR Image Fusion Transformer for 3D Object Detection
 
 **Lane Detection**
    
@@ -147,7 +146,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [SFA3D](https://github.com/maudzung/SFA3D) - Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds.
   - [Auto4D](https://arxiv.org/pdf/2101.06586v1.pdf) - Auto4D: Learning to Label 4D Objects from Sequential Point Clouds. 
   - [3DAL](https://arxiv.org/abs/2103.05073) - Offboard 3D Object Detection from Point Cloud Sequences
-
+  - [LIFT](https://openaccess.thecvf.com/content/CVPR2022/html/Zeng_LIFT_Learning_4D_LiDAR_Image_Fusion_Transformer_for_3D_Object_CVPR_2022_paper.html) LIFT: Learning 4D LiDAR Image Fusion Transformer for 3D Object Detection
 
 ### 3.2 Tracking
 *追踪算法*
