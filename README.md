@@ -281,8 +281,8 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 *数据闭环*
 
 **NAS**
-[Beta-DARTS](https://github.com/Sunshine-Ye/Beta-DARTS) Beta-Decay Regularization for Differentiable Architecture Search
-[ISNAS-DIP](https://arxiv.org/abs/2111.15362) Image-Specific Neural Architecture Search for Deep Image Prior
+- [Beta-DARTS](https://github.com/Sunshine-Ye/Beta-DARTS) Beta-Decay Regularization for Differentiable Architecture Search
+- [ISNAS-DIP](https://arxiv.org/abs/2111.15362) Image-Specific Neural Architecture Search for Deep Image Prior
 
 **主动学习**
 
@@ -293,6 +293,10 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 
 **Coner case & Long-tail**
 - [RAC](https://arxiv.org/abs/2202.11233) Retrieval Augmented Classification for Long-Tail Visual Recognition*
+
+**数据挖掘**
+- [AirDet](https://arxiv.org/abs/2112.01740) Few-Shot Detection without Fine-tuning for Autonomous Exploration. 这篇文章把他放在数据挖掘方面是思考有没有可能用极少样本不用fine-tuning 后可以从原有自动驾驶数据湖中挖掘出更多的样本。
+
 
 ## 11. Visualization
 *可视化工具*
