@@ -219,6 +219,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [Faster-LIO](https://github.com/gaoxiang12/faster-lio) - 比Fast LIO快1-1.5倍的前端里程计
 - [FAST_LIO_SLAM](https://github.com/gisbi-kim/FAST_LIO_SLAM) Scancontext + 现在的SOTA里程计(fast lio)
 - [SC-A-LOAM](https://github.com/gisbi-kim/SC-A-LOAM) - Scancontext + 现在的SOTA里程计(Lego-loam, fast lio, a loam etc.)
+- [FAST_LIO_LOCALIZATION](https://github.com/HViktorTsoi/FAST_LIO_LOCALIZATION) Fast lio 系列建图完成后依赖这些执行定位.
  
 ## 6. Planning
 *规划*
