@@ -136,6 +136,9 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [3D-BoundingBox](https://github.com/skhadem/3D-BoundingBox)
   - [Pseudo_Lidar_V2](https://github.com/mileyan/Pseudo_Lidar_V2) - Accurate Depth for 3D Object Detection in Autonomous Driving.
   - [Pseudo_lidar](https://github.com/mileyan/pseudo_lidar.git) - Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving.
+  - [https://arxiv.org/abs/2203.10981](https://arxiv.org/abs/2203.10981) MonoDTR: Monocular 3D Object Detection with Depth-Aware Transformer 基于单目的Depth-Aware Transformer 的3D检测.
+  - [BoxeR](https://github.com/kienduynguyen/BoxeR)  Box-Attention for 2D and 3D Transformers. 从鸟瞰平面生成判别信息，用于 3D 端到端对象检测。该项目同样也提出了2D上的Detection 解决方案。
+ 
 
 ### 3.1.2 Lidar based
 
@@ -153,7 +156,8 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [SFA3D](https://github.com/maudzung/SFA3D) - Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds.
   - [Auto4D](https://arxiv.org/pdf/2101.06586v1.pdf) - Auto4D: Learning to Label 4D Objects from Sequential Point Clouds. 
   - [3DAL](https://arxiv.org/abs/2103.05073) - Offboard 3D Object Detection from Point Cloud Sequences
-  - [LIFT](https://openaccess.thecvf.com/content/CVPR2022/html/Zeng_LIFT_Learning_4D_LiDAR_Image_Fusion_Transformer_for_3D_Object_CVPR_2022_paper.html) LIFT: Learning 4D LiDAR Image Fusion Transformer for 3D Object Detection
+  - [LIFT](https://openaccess.thecvf.com/content/CVPR2022/html/Zeng_LIFT_Learning_4D_LiDAR_Image_Fusion_Transformer_for_3D_Object_CVPR_2022_paper.html)  [CVPR2022]  LIFT: Learning 4D LiDAR Image Fusion Transformer for 3D Object Detection
+  - [FSD](https://github.com/TuSimple/SST) [CVPR2022] Fully Sparse 3D Object Detection & SST: Single-stride Sparse Transformer 来自图森的 Sparse Transformer. 
 
 ### 3.2 Tracking
 *追踪算法*
