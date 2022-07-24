@@ -106,7 +106,6 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 
   **BackBone**
   - [Next-ViT](https://arxiv.org/pdf/2207.05501.pdf) 来自字节面向工业界的新一代Transform模型部署。
-  - [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) 伪装成Conv的Transform
   - [CoAtNet](https://arxiv.org/pdf/2106.04803.pdf)
   - [FocalsConv](https://github.com/dvlab-research/FocalsConv) Focal Sparse Convolutional
   - [PoolFormer](https://github.com/sail-sg/poolformer) [CVPR2022] MetaFormer Is Actually What You Need for Vision. 证明Transformer模型的能力，而不是设计复杂的token mixer来实现SOTA性能
