@@ -2,7 +2,7 @@
 
 Author: 牛肉咖喱饭(PeterJaq)
 
-Update：2022/07/22
+Update：2022/07/24
 
 This project will be periodically updated with quality projects and papers related to autonomous driving.
 
@@ -217,6 +217,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [Livox-Mapping](https://github.com/PJLab-ADG/Livox-Mapping) - **Livox + IMU + SC  ** 一款基于Livox的mapping工具包，在先前的工具上添加了SC和Fastlio的一些特性 
 - [Fast-LIO](https://github.com/hku-mars/FAST_LIO) - 目前最好用的前端里程计之一，几乎同时兼具速度与鲁棒性
 - [Faster-LIO](https://github.com/gaoxiang12/faster-lio) - 比Fast LIO快1-1.5倍的前端里程计
+- [FAST_LIO_SLAM](https://github.com/gisbi-kim/FAST_LIO_SLAM) Scancontext + 现在的SOTA里程计(fast lio)
 - [SC-A-LOAM](https://github.com/gisbi-kim/SC-A-LOAM) - Scancontext + 现在的SOTA里程计(Lego-loam, fast lio, a loam etc.)
  
 ## 6. Planning
