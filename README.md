@@ -109,6 +109,14 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) 伪装成Conv的Transform
   - [CoAtNet](https://arxiv.org/pdf/2106.04803.pdf)
   - [FocalsConv](https://github.com/dvlab-research/FocalsConv) Focal Sparse Convolutional
+  - [PoolFormer](https://github.com/sail-sg/poolformer) [CVPR2022] MetaFormer Is Actually What You Need for Vision. 证明Transformer模型的能力，而不是设计复杂的token mixer来实现SOTA性能
+  - [ConvNext](https://arxiv.org/abs/2201.03545) [CVPR2022] A ConvNet for the 2020s. 用设计transformer的思想构建卷积。
+  - [Mobile-Former](https://arxiv.org/abs/2108.05895) [CVPR2022] 微软提出Mobile-Former，MobileNet和Transformer的并行设计，可以实现局部和全局特征的双向融合，在分类和下游任务中，性能远超MobileNetV3等轻量级网络！
+  - [Up to 31](https://arxiv.org/abs/2203.06717) Revisiting Large Kernel Design in CNNs. 大Kernel =? SOTA 这篇文章给你答案！
+
+  **数据增强**
+  - [TeachAugment](https://github.com/DensoITLab/TeachAugment) [CVPR2022] Data Augmentation Optimization Using Teacher Knowledge
+  - [AlignMixup](https://github.com/DensoITLab/TeachAugment)  [CVPR2022] Improving Representations By Interpolating Aligned Features
 
 **Lane Detection**
    
@@ -268,12 +276,22 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [SODA10M](https://soda-2d.github.io/)
 - [OPV2V](https://mobility-lab.seas.ucla.edu/opv2v/) - 首个大型自动驾驶协同感知数据集 + banchmark代码框架, 由UCLA提供
 
-## 10. Data Loop
+## 10. Data Loop & Model Loop
 *数据闭环*
+
+**NAS**
+[Beta-DARTS](https://github.com/Sunshine-Ye/Beta-DARTS) Beta-Decay Regularization for Differentiable Architecture Search
+[ISNAS-DIP](https://arxiv.org/abs/2111.15362) Image-Specific Neural Architecture Search for Deep Image Prior
 
 **主动学习**
 
 - [Discriminative Active Learning](https://github.com/dsgissin/DiscriminativeActiveLearning)
+- [AL-FM](https://openaccess.thecvf.com/content/CVPR2022/papers/Parvaneh_Active_Learning_by_Feature_Mixing_CVPR_2022_paper.pdf) [CVPR2022]基于特征混合的主动学习
+- [LfOSA](https://arxiv.org/pdf/2201.06758.pdf) [CVPR2022] 面向Open set的 active learning 框架
+
+
+**Coner case & Long-tail**
+- [RAC](https://arxiv.org/abs/2202.11233) Retrieval Augmented Classification for Long-Tail Visual Recognition*
 
 ## 11. Visualization
 *可视化工具*
