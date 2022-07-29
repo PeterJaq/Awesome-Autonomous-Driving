@@ -116,7 +116,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   **数据增强**
   - [TeachAugment](https://github.com/DensoITLab/TeachAugment) [CVPR2022] Data Augmentation Optimization Using Teacher Knowledge
   - [AlignMixup](https://github.com/DensoITLab/TeachAugment)  [CVPR2022] Improving Representations By Interpolating Aligned Features
-
+  - [rising](https://github.com/PhoenixDL/rising) 基于pytorch的GPU数据预处理transform模块，实测好用！
 **Lane Detection**
    
   - [Advanced-Lane-Detection](https://github.com/uranus4ever/Advanced-Lane-Detection) - 一个非常适合新人的车道检测任务的小demo
