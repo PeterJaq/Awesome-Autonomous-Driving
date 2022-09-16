@@ -2,7 +2,7 @@
 
 Author: 牛肉咖喱饭(PeterJaq)
 
-Update：2022/07/24
+Update：2022/09/16
 
 This project will be periodically updated with quality projects and papers related to autonomous driving.
 
@@ -117,6 +117,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [TeachAugment](https://github.com/DensoITLab/TeachAugment) [CVPR2022] Data Augmentation Optimization Using Teacher Knowledge
   - [AlignMixup](https://github.com/DensoITLab/TeachAugment)  [CVPR2022] Improving Representations By Interpolating Aligned Features
   - [rising](https://github.com/PhoenixDL/rising) 基于pytorch的GPU数据预处理transform模块，实测好用！
+  
 **Lane Detection**
    
   - [Advanced-Lane-Detection](https://github.com/uranus4ever/Advanced-Lane-Detection) - 一个非常适合新人的车道检测任务的小demo
@@ -161,7 +162,12 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 
 ### 3.2 Tracking
 *追踪算法*
-- [SimpleTrack](https://github.com/TuSimple/SimpleTrack) - Simple yet Effective 3D Multi-object Tracking.
+
+- [SimpleTrack](https://github.com/TuSimple/SimpleTrack) - [3D-MOT] Simple yet Effective 3D Multi-object Tracking.
+- [CAMO-MOT](https://arxiv.org/pdf/2209.02540.pdf) - [3D-MOT]  This paper propose an occlusion head to select the best object appearance features multiple times effectively, reducing the influence of occlusions
+- [EagerMot](https://github.com/aleksandrkim61/EagerMOT) - [3D-MOT] Improve your online 3D multi-object tracking performance by using 2D detections to support tracking when 3D association fails.
+- [OGR3MOT](https://arxiv.org/pdf/2104.11747.pdf) - [3D-MOT] This paper provides a natural way for track initialization and handling of false positive detections.
+significantly improving track stability
 - [ImmortalTracker](https://github.com/ImmortalTracker/ImmortalTracker) - Our mismatch ratio is tens of times lower than any previously published method.
 - [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch) - 基于yolo-v5的目标追踪
 
