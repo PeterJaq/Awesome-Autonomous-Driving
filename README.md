@@ -170,6 +170,10 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 significantly improving track stability
 - [ImmortalTracker](https://github.com/ImmortalTracker/ImmortalTracker) - Our mismatch ratio is tens of times lower than any previously published method.
 - [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch) - 基于yolo-v5的目标追踪
+- [3D Multi-Object Tracking in Point Clouds Based on Prediction Confidence-Guided Data Association](https://ieeexplore.ieee.org/abstract/document/9352500) 引入了一种新的配对代价计算方式，以利用点云中物体的特征来实现更快、更准确的数据关联。
+- [Label Metric for Multi-Class Multi-Target Tracking under Hierarchical Multilevel Classification](https://www.mdpi.com/1424-8220/22/22/8613/pdf)  提出了一种
+层次化多级分类标签，用于层次化多级目标跟踪。
+
 
 ### 3.3 High Performance Inference
 *高性能推理*
