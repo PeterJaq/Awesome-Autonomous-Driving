@@ -162,15 +162,27 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 
 ### 3.1.2 Multi Sensor Fusion
 
-  **Object Detection**
+  **BEV Object Detection**
 
  - [PERF](https://github.com/megvii-research/petr) PETR encodes the position information of 3D coordinates into image features, producing the 3D position-aware features.
  - [PERFv2](https://github.com/megvii-research/petr) Based on PETR, PETRv2 explores the effectiveness of temporal modeling, which utilizes the temporal information of previous frames to boost 3D object detection. 
  - [BEVFusion](https://github.com/mit-han-lab/bevfusion.git) BEVFusion is fundamentally task-agnostic and seamlessly supports different 3D perception tasks with almost no architectural changes.
  - [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth.git) BEVDepth resolves this by leveraging explicit depth supervision.
  - [BEVFormer](https://github.com/fundamentalvision/BEVFormer.git) BEVFormer learns unified BEV representations with spatiotemporal transformers to support multiple autonomous driving perception tasks.
+ - [ST-P3](https://github.com/OpenPerceptionX/ST-P3) End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning
+ - [SpatialDETR](https://github.com/cgtuebingen/SpatialDETR) Robust Scalable Transformer-Based 3D Object Detection from Multi-View Camera Images with Global Cross-Sensor Attention
+ - [BEVDet](https://github.com/HuangJunJie2017/BEVDet) High-Performance Multi-Camera 3D Object Detection in Bird-Eye-View.
+ - [BEVDet4D](https://arxiv.org/abs/2203.17054) Exploit Temporal Cues in Multi-camera 3D Object Detection.
+ - [M2BEV](https://arxiv.org/abs/2204.05088) Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation.
+ - [BEVerse](https://github.com/zhangyp15/BEVerse) Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving.
+ - [PolarDETR](https://arxiv.org/abs/2206.10965) Polar Parametrization for Vision-based Surround-View 3D Detection.
+ - [PolarFormer](https://github.com/fudan-zvg/PolarFormer) Multi-camera 3D Object Detection with Polar Transformers.
+ - [CrossDTR](https://github.com/sty61010/CrossDTR) Cross-view and Depth-guided Transformers for 3D Object Detection.
+ - [Sim-BEV](https://github.com/aharley/simple_bev) A Simple Baseline for BEV Perception Without LiDAR.
+ - [AeDet](https://github.com/fcjian/AeDet) AeDet: Azimuth-invariant Multi-view 3D Object Detection.
  
   **Lane Detection** 
+
 - [Repainting and Imitating Learning for Lane Detection](https://arxiv.org/abs/2210.05097)
 - [WS-3D-Lane: Weakly Supervised 3D Lane Detection With 2D Lane Labels](https://arxiv.org/abs/2209.11523)
 - [CurveFormer: 3D Lane Detection by Curve Propagation with Curve Queries and Attention](https://arxiv.org/abs/2209.07989)
