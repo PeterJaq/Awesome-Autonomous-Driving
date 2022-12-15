@@ -2,7 +2,7 @@
 
 Author: 牛肉咖喱饭(PeterJaq)
 
-Update：2022/12/01
+Update：2022/12/15
 
 This project will be periodically updated with quality projects and papers related to autonomous driving.
 
@@ -159,6 +159,13 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [3DAL](https://arxiv.org/abs/2103.05073) - Offboard 3D Object Detection from Point Cloud Sequences
   - [LIFT](https://openaccess.thecvf.com/content/CVPR2022/html/Zeng_LIFT_Learning_4D_LiDAR_Image_Fusion_Transformer_for_3D_Object_CVPR_2022_paper.html)  [CVPR2022]  LIFT: Learning 4D LiDAR Image Fusion Transformer for 3D Object Detection
   - [FSD](https://github.com/TuSimple/SST) [CVPR2022] Fully Sparse 3D Object Detection & SST: Single-stride Sparse Transformer 来自图森的 Sparse Transformer. 
+
+### 3.1.2 Multi Sensor Fusion
+
+ - [PERF](https://github.com/megvii-research/petr) PETR encodes the position information of 3D coordinates into image features, producing the 3D position-aware features.
+ - [PERFv2](https://github.com/megvii-research/petr) Based on PETR, PETRv2 explores the effectiveness of temporal modeling, which utilizes the temporal information of previous frames to boost 3D object detection. 
+ - [BEVFusion](https://github.com/mit-han-lab/bevfusion.git) BEVFusion is fundamentally task-agnostic and seamlessly supports different 3D perception tasks with almost no architectural changes.
+ - [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth.git) BEVDepth resolves this by leveraging explicit depth supervision.
 
 ### 3.2 Tracking
 *追踪算法*
