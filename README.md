@@ -162,10 +162,35 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 
 ### 3.1.2 Multi Sensor Fusion
 
+  **Object Detection**
+
  - [PERF](https://github.com/megvii-research/petr) PETR encodes the position information of 3D coordinates into image features, producing the 3D position-aware features.
  - [PERFv2](https://github.com/megvii-research/petr) Based on PETR, PETRv2 explores the effectiveness of temporal modeling, which utilizes the temporal information of previous frames to boost 3D object detection. 
  - [BEVFusion](https://github.com/mit-han-lab/bevfusion.git) BEVFusion is fundamentally task-agnostic and seamlessly supports different 3D perception tasks with almost no architectural changes.
  - [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth.git) BEVDepth resolves this by leveraging explicit depth supervision.
+ - [BEVFormer](https://github.com/fundamentalvision/BEVFormer.git) BEVFormer learns unified BEV representations with spatiotemporal transformers to support multiple autonomous driving perception tasks.
+ 
+  **Lane Detection** 
+- [Repainting and Imitating Learning for Lane Detection](https://arxiv.org/abs/2210.05097)
+- [WS-3D-Lane: Weakly Supervised 3D Lane Detection With 2D Lane Labels](https://arxiv.org/abs/2209.11523)
+- [CurveFormer: 3D Lane Detection by Curve Propagation with Curve Queries and Attention](https://arxiv.org/abs/2209.07989)
+- [PriorLane: A Prior Knowledge Enhanced Lane Detection Approach Based on Transformer]( https://arxiv.org/abs/2209.06994 )  [github](https://github.com/vincentqqb/PriorLane)
+- [M^2-3DLaneNet: Multi-Modal 3D Lane Detection](https://arxiv.org/abs/2209.05996)
+- [RCLane: Relay Chain Prediction for Lane Detection](https://arxiv.org/abs/2207.09399)  ECCV 2022
+- [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/abs/2203.11089)  [github](https://github.com/OpenPerceptionX/PersFormer_3DLane)  [OpenLane Dataset](https://github.com/OpenPerceptionX/OpenLane)  ECCV 2022 Oral
+- [Reconstruct from Top View: A 3D Lane Detection Approach based on Geometry Structure Prior](https://arxiv.org/abs/2206.10098)
+- [Multi-level Domain Adaptation for Lane Detection](https://arxiv.org/abs/2206.10692)
+- [Ultra Fast Deep Lane Detection with Hybrid Anchor Driven Ordinal Classification](https://arxiv.org/abs/2206.07389)  [github](https://github.com/cfzd/Ultra-Fast-Lane-Detection-v2)  TPAMI 2022
+- [ONCE-3DLanes: Building Monocular 3D Lane Detection](https://arxiv.org/abs/2205.00301)  [Homepage](https://once-3dlanes.github.io/)  [github](https://github.com/once-3dlanes/once_3dlanes_benchmark)  [Dataset](https://once-3dlanes.github.io/3dlanes/)  CVPR 2022
+- [A Keypoint-based Global Association Network for Lane Detection](https://arxiv.org/abs/2204.07335)  [github](https://github.com/Wolfwjs/GANet)  CVPR 2022
+- [Eigenlanes: Data-Driven Lane Descriptors for Structurally Diverse Lanes](https://arxiv.org/abs/2203.15302)  [github](https://github.com/dongkwonjin/Eigenlanes)   - - [SDLane  Dataset](https://www.42dot.ai/akit/dataset/)  CVPR 2022
+- [Towards Driving-Oriented Metric for Lane Detection Models](https://arxiv.org/abs/2203.16851)  [Comma2k19 LD Dataset](https://www.kaggle.com/datasets/tkm2261/comma2k19-ld)  CVPR 2022
+- [CLRNet: Cross Layer Refinement Network for Lane Detection](https://arxiv.org/abs/2203.10350)  CVPR 2022
+- [Rethinking Efficient Lane Detection via Curve Modeling](https://arxiv.org/abs/2203.02431)  [github](https://github.com/voldemortX/pytorch-auto-drive)  CVPR 2022
+- [Lane detection with Position Embedding](https://arxiv.org/abs/2203.12301)
+- [AtrousFormer：Lane Detection with Versatile AtrousFormer and Local Semantic Guidance](https://arxiv.org/abs/2203.04067)
+- [Laneformer: Object-Aware Row-Column Transformers for Lane Detection](https://www.aaai.org/AAAI22Papers/AAAI-6756.HanJ.pdf)  AAAI 2022
+- [RONELDv2: A faster, improved lane tracking method](https://arxiv.org/abs/2202.13137)
 
 ### 3.2 Tracking
 *追踪算法*
