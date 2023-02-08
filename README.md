@@ -223,7 +223,7 @@ significantly improving track stability
 - [3D Multi-Object Tracking in Point Clouds Based on Prediction Confidence-Guided Data Association](https://ieeexplore.ieee.org/abstract/document/9352500) 引入了一种新的配对代价计算方式，以利用点云中物体的特征来实现更快、更准确的数据关联。
 - [Label Metric for Multi-Class Multi-Target Tracking under Hierarchical Multilevel Classification](https://www.mdpi.com/1424-8220/22/22/8613/pdf)  提出了一种
 层次化多级分类标签，用于层次化多级目标跟踪。
-
+ -[Tracking ROS](https://github.com/HuangCongQing/3D-LIDAR-Multi-Object-Tracking) 一个很好的ROS Tracking节点，方便大家参考。
 
 ### 3.3 High Performance Inference
 *高性能推理*
