@@ -267,7 +267,8 @@ significantly improving track stability
   - [hdl_localization](https://github.com/koide3/hdl_localization) - **Lidar + IMU** 基于卡尔曼滤波的位置估计使用了激光雷达，IMU, 可以做到实时估计。
   
   *SLAM*
-  
+- [PaGO-LOAM](https://github.com/url-kaist/AlterGround-LeGO-LOAM) 一个基于LeGO-LOAM的LiDAR测距框架，在这个框架中，测试地面分割算法是否有助于提取特征和改善SLAM性能是很容易和直接的。
+- [Quatro-LeGO-LOAM](https://github.com/url-kaist/Quatro-LeGO-LOAM) 在城市环境中避免退化的鲁棒性global registration方法 + LeGO-LOAM
 - [AVP-SLAM](https://arxiv.org/abs/2007.01813)来自2020IROS的AVP定位方案：AVP-SLAM: Semantic Visual Mapping and Localization for Autonomous Vehicles in the Parking Lot(IROS 2020),主要是通过BEV视角对停车场中的车道线车库线以及标识进行检测并利用其进行稀疏定位。
 最近有两位大佬提供了仿真和定位的开源方案：[AVP-SLAM-SIM](https://github.com/TurtleZhong/AVP-SLAM-SIM) [AVP-SLAM-PLUS](https://github.com/liuguitao/AVP-SLAM-PLUS)
 - [DeepLIO](https://github.com/ArashJavan/DeepLIO) - **Lidar + IMU** 一款基于深度学习的lidar IMU融合里程计
