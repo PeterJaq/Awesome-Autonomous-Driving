@@ -160,6 +160,11 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [LIFT](https://openaccess.thecvf.com/content/CVPR2022/html/Zeng_LIFT_Learning_4D_LiDAR_Image_Fusion_Transformer_for_3D_Object_CVPR_2022_paper.html)  [CVPR2022]  LIFT: Learning 4D LiDAR Image Fusion Transformer for 3D Object Detection
   - [FSD](https://github.com/TuSimple/SST) [CVPR2022] Fully Sparse 3D Object Detection & SST: Single-stride Sparse Transformer 来自图森的 Sparse Transformer. 
 
+  **Lidar Ground Segmentation**
+  [patchwork](https://github.com/LimHyungTae/patchwork) Patchwork 主要由三部分组成：基于同心带模型（CZM）的极坐标网格表示、区域地平面拟合（R-GPF）和地面似然估计（GLE) IROS2021
+  [patchwork++](https://github.com/url-kaist/patchwork-plusplus) 与Patchwork不同，Patchwork++由称为反射噪声去除（RNR）、区域垂直平面拟合（R-VPF）、自适应GLE（A-GLE）和空间地面恢复（TGR）的新模块组成。Patchwork++具有更高的精确度和召回率。此外，新的Patchwork++具有较低的召回标准差。
+  [TRAVEL](https://github.com/url-kaist/TRAVEL.git) 他使用三维点云的图形表示，同时进行可穿越的地面检测和物体聚类, 为了分割可穿越的地面，点云被编码为一个图结构，即三网格场，它将每个三网格视为一个节点。IROS 2022
+  
 ### 3.1.2 Multi Sensor Fusion
 
   **BEV Object Detection**
