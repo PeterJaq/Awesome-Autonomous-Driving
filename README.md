@@ -2,7 +2,7 @@
 
 Author: 牛肉咖喱饭(PeterJaq)
 
-Update：2022/12/15
+Update：2023/4/11
 
 This project will be periodically updated with quality projects and papers related to autonomous driving.
 
@@ -113,6 +113,16 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [Mobile-Former](https://arxiv.org/abs/2108.05895) [CVPR2022] 微软提出Mobile-Former，MobileNet和Transformer的并行设计，可以实现局部和全局特征的双向融合，在分类和下游任务中，性能远超MobileNetV3等轻量级网络！
   - [Up to 31](https://arxiv.org/abs/2203.06717) Revisiting Large Kernel Design in CNNs. 大Kernel =? SOTA 这篇文章给你答案！
 
+  **Occupancy**
+  - [Occupancy Networks](https://link.zhihu.com/?target=https%3A//github.com/LMescheder/Occupancy-Networks) Learning 3D Reconstruction in Function Space.
+  - [Pyramid Occupancy Network](https://link.zhihu.com/?target=https%3A//github.com/tom-roddick/mono-semantic-maps) Predicting Semantic Map Representations from Images using Pyramid Occupancy Networks.
+  - [MonoScene](https://github.com/cv-rits/MonoScene) Monocular 3D Semantic Scene Completion.
+  - [OccDepth](https://github.com/megvii-research/OccDepth) A Depth-Aware Method for 3D Semantic Scene Completion.
+  - [VoxFormer](https://github.com/NVlabs/VoxFormer) Sparse Voxel Transformer for Camera-based 3D Semantic Scene.
+  - [TPVFormer](https://github.com/wzzheng/TPVFormer) Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction.
+  - [SurroundOcc](https://github.com/weiyithu/SurroundOcc) Multi-Camera 3D Occupancy Prediction for Autonomous Driving.
+  - [A Comprehensive Review of Occupancy](https://arxiv.org/abs/2303.01212) A summary of the current research trend and provide some probable future outlooks for occupancy.
+  
   **数据增强**
   - [TeachAugment](https://github.com/DensoITLab/TeachAugment) [CVPR2022] Data Augmentation Optimization Using Teacher Knowledge
   - [AlignMixup](https://github.com/DensoITLab/TeachAugment)  [CVPR2022] Improving Representations By Interpolating Aligned Features
