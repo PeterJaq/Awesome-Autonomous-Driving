@@ -173,6 +173,11 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [PillarNext](https://cvpr2023.thecvf.com/virtual/2023/poster/21961) [CVPR2023] Rethinking Network Designs for 3D Object Detection in LiDAR Point Clouds
   - [LargeKernel3D](https://cvpr2023.thecvf.com/virtual/2023/poster/22447) [CVPR2023] LargeKernel3D: Scaling Up Kernels in 3D Sparse CNNs
   - [LinK](https://cvpr2023.thecvf.com/virtual/2023/poster/22454) [CVPR2023] Linear Kernel for LiDAR-Based 3D Perception
+  - [Spherical Transformer](https://cvpr2023.thecvf.com/virtual/2023/poster/22665) [CVPR2023]spherical Transformer for LiDAR-Based 3D Recognition
+  - [Unspervised 3D OD](https://cvpr2023.thecvf.com/virtual/2023/poster/22263) [CVPR2023]Towards Unsupervised Object Detection From LiDAR Point Clouds
+  - [Benchmarking robustness of 3D OD](https://cvpr2023.thecvf.com/virtual/2023/poster/22236) Benchmarking Robustness of 3D Object Detection to Common Corruptions
+  - [Bi3D](https://cvpr2023.thecvf.com/virtual/2023/poster/21758) Bi-Domain Active Learning for Cross-Domain 3D Object Detection
+
 
   **Lidar Ground Segmentation**
   - [patchwork](https://github.com/LimHyungTae/patchwork) Patchwork 主要由三部分组成：基于同心带模型（CZM）的极坐标网格表示、区域地平面拟合（R-GPF）和地面似然估计（GLE) IROS2021
@@ -199,7 +204,8 @@ lidar-imu-cam-GPS时间戳硬件同步方案
  - [CrossDTR](https://github.com/sty61010/CrossDTR) Cross-view and Depth-guided Transformers for 3D Object Detection.
  - [Sim-BEV](https://github.com/aharley/simple_bev) A Simple Baseline for BEV Perception Without LiDAR.
  - [AeDet](https://github.com/fcjian/AeDet) AeDet: Azimuth-invariant Multi-view 3D Object Detection.
- 
+  - [DFKF](https://cvpr2023.thecvf.com/virtual/2023/poster/22921) [CVPR2023]Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection
+
   **Lane Detection** 
 
 - [Repainting and Imitating Learning for Lane Detection](https://arxiv.org/abs/2210.05097)
@@ -223,6 +229,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [AtrousFormer：Lane Detection with Versatile AtrousFormer and Local Semantic Guidance](https://arxiv.org/abs/2203.04067)
 - [Laneformer: Object-Aware Row-Column Transformers for Lane Detection](https://www.aaai.org/AAAI22Papers/AAAI-6756.HanJ.pdf)  AAAI 2022
 - [RONELDv2: A faster, improved lane tracking method](https://arxiv.org/abs/2202.13137)
+- [BEV-LaneDet](https://cvpr2023.thecvf.com/virtual/2023/poster/22300) An Efficient 3D Lane Detection Based on Virtual Camera via Key-Points.
 
 ### 3.2 Tracking
 *追踪算法*
@@ -237,7 +244,8 @@ significantly improving track stability
 - [3D Multi-Object Tracking in Point Clouds Based on Prediction Confidence-Guided Data Association](https://ieeexplore.ieee.org/abstract/document/9352500) 引入了一种新的配对代价计算方式，以利用点云中物体的特征来实现更快、更准确的数据关联。
 - [Label Metric for Multi-Class Multi-Target Tracking under Hierarchical Multilevel Classification](https://www.mdpi.com/1424-8220/22/22/8613/pdf)  提出了一种
 层次化多级分类标签，用于层次化多级目标跟踪。
- -[Tracking ROS](https://github.com/HuangCongQing/3D-LIDAR-Multi-Object-Tracking) 一个很好的ROS Tracking节点，方便大家参考。
+ - [Tracking ROS](https://github.com/HuangCongQing/3D-LIDAR-Multi-Object-Tracking) 一个很好的ROS Tracking节点，方便大家参考。
+ - [CXTrack](https://cvpr2023.thecvf.com/virtual/2023/poster/22624) Improving 3D Point Cloud Tracking With Contextual Information
 
 ### 3.3 High Performance Inference
 *高性能推理*
