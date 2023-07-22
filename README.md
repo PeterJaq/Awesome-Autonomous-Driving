@@ -205,7 +205,7 @@ lidar-imu-cam-GPS时间戳硬件同步方案
  - [Sim-BEV](https://github.com/aharley/simple_bev) A Simple Baseline for BEV Perception Without LiDAR.
  - [AeDet](https://github.com/fcjian/AeDet) AeDet: Azimuth-invariant Multi-view 3D Object Detection.
   - [DFKF](https://cvpr2023.thecvf.com/virtual/2023/poster/22921) [CVPR2023]Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection
-
+  - [Understand BEV](https://cvpr2023.thecvf.com/virtual/2023/poster/22414)[CVPR2023] Understanding the Robustness of 3D Object Detection With Bird’s-Eye-View Representations in Autonomous Driving
   **Lane Detection** 
 
 - [Repainting and Imitating Learning for Lane Detection](https://arxiv.org/abs/2210.05097)
