@@ -169,11 +169,15 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [3DAL](https://arxiv.org/abs/2103.05073) - Offboard 3D Object Detection from Point Cloud Sequences
   - [LIFT](https://openaccess.thecvf.com/content/CVPR2022/html/Zeng_LIFT_Learning_4D_LiDAR_Image_Fusion_Transformer_for_3D_Object_CVPR_2022_paper.html)  [CVPR2022]  LIFT: Learning 4D LiDAR Image Fusion Transformer for 3D Object Detection
   - [FSD](https://github.com/TuSimple/SST) [CVPR2022] Fully Sparse 3D Object Detection & SST: Single-stride Sparse Transformer 来自图森的 Sparse Transformer. 
+  - [VoxelNext](https://cvpr2023.thecvf.com/virtual/2023/poster/22493) [CVPR2023] VoxelNeXt: Fully Sparse VoxelNet for 3D Object Detection and Tracking
+  - [PillarNext](https://cvpr2023.thecvf.com/virtual/2023/poster/21961) [CVPR2023] Rethinking Network Designs for 3D Object Detection in LiDAR Point Clouds
+  - [LargeKernel3D](https://cvpr2023.thecvf.com/virtual/2023/poster/22447) [CVPR2023] LargeKernel3D: Scaling Up Kernels in 3D Sparse CNNs
+  - [LinK](https://cvpr2023.thecvf.com/virtual/2023/poster/22454) [CVPR2023] Linear Kernel for LiDAR-Based 3D Perception
 
   **Lidar Ground Segmentation**
-  [patchwork](https://github.com/LimHyungTae/patchwork) Patchwork 主要由三部分组成：基于同心带模型（CZM）的极坐标网格表示、区域地平面拟合（R-GPF）和地面似然估计（GLE) IROS2021
-  [patchwork++](https://github.com/url-kaist/patchwork-plusplus) 与Patchwork不同，Patchwork++由称为反射噪声去除（RNR）、区域垂直平面拟合（R-VPF）、自适应GLE（A-GLE）和空间地面恢复（TGR）的新模块组成。Patchwork++具有更高的精确度和召回率。此外，新的Patchwork++具有较低的召回标准差。
-  [TRAVEL](https://github.com/url-kaist/TRAVEL.git) 他使用三维点云的图形表示，同时进行可穿越的地面检测和物体聚类, 为了分割可穿越的地面，点云被编码为一个图结构，即三网格场，它将每个三网格视为一个节点。IROS 2022
+  - [patchwork](https://github.com/LimHyungTae/patchwork) Patchwork 主要由三部分组成：基于同心带模型（CZM）的极坐标网格表示、区域地平面拟合（R-GPF）和地面似然估计（GLE) IROS2021
+  - [patchwork++](https://github.com/url-kaist/patchwork-plusplus) 与Patchwork不同，Patchwork++由称为反射噪声去除（RNR）、区域垂直平面拟合（R-VPF）、自适应GLE（A-GLE）和空间地面恢复（TGR）的新模块组成。Patchwork++具有更高的精确度和召回率。此外，新的Patchwork++具有较低的召回标准差。
+  - [TRAVEL](https://github.com/url-kaist/TRAVEL.git) 他使用三维点云的图形表示，同时进行可穿越的地面检测和物体聚类, 为了分割可穿越的地面，点云被编码为一个图结构，即三网格场，它将每个三网格视为一个节点。IROS 2022
   
 ### 3.1.2 Multi Sensor Fusion
 
@@ -380,8 +384,9 @@ significantly improving track stability
 - [Uber AVS](https://avs.auto/#/) - 自动驾驶可视化前端组件 xviz 与 streetscape.gl 
 - [Cruise](https://webviz.io/worldview/#/) - Cruise 开源的一款自动驾驶前端可视化套件
 
+# 12. Simulation
 
-## 12. Others
+## 13. Others
 *其他更好的分享*
 - [awesome-3D-object-detection](https://github.com/Tom-Hardy-3D-Vision-Workshop/awesome-3D-object-detection)
 - [3D-ObjectDetection-and-Pose-Estimation](https://github.com/littlebearsama/3D-ObjectDetection-and-Pose-Estimation) -物体检测与位姿估计
