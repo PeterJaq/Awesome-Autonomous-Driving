@@ -175,8 +175,9 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [LinK](https://cvpr2023.thecvf.com/virtual/2023/poster/22454) [CVPR2023] Linear Kernel for LiDAR-Based 3D Perception
   - [Spherical Transformer](https://cvpr2023.thecvf.com/virtual/2023/poster/22665) [CVPR2023]spherical Transformer for LiDAR-Based 3D Recognition
   - [Unspervised 3D OD](https://cvpr2023.thecvf.com/virtual/2023/poster/22263) [CVPR2023]Towards Unsupervised Object Detection From LiDAR Point Clouds
-  - [Benchmarking robustness of 3D OD](https://cvpr2023.thecvf.com/virtual/2023/poster/22236) Benchmarking Robustness of 3D Object Detection to Common Corruptions
-  - [Bi3D](https://cvpr2023.thecvf.com/virtual/2023/poster/21758) Bi-Domain Active Learning for Cross-Domain 3D Object Detection
+  - [Benchmarking robustness of 3D OD](https://cvpr2023.thecvf.com/virtual/2023/poster/22236) [CVPR2023] Benchmarking Robustness of 3D Object Detection to Common Corruptions
+  - [Bi3D](https://cvpr2023.thecvf.com/virtual/2023/poster/21758) [CVPR2023] Bi-Domain Active Learning for Cross-Domain 3D Object Detection
+  - [Density-Insensitive](https://cvpr2023.thecvf.com/virtual/2023/poster/21626) [CVPR2023] Density-Insensitive Unsupervised Domain Adaption on 3D Object Detection
 
 
   **Lidar Ground Segmentation**
@@ -206,6 +207,10 @@ lidar-imu-cam-GPS时间戳硬件同步方案
  - [AeDet](https://github.com/fcjian/AeDet) AeDet: Azimuth-invariant Multi-view 3D Object Detection.
   - [DFKF](https://cvpr2023.thecvf.com/virtual/2023/poster/22921) [CVPR2023]Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection
   - [Understand BEV](https://cvpr2023.thecvf.com/virtual/2023/poster/22414)[CVPR2023] Understanding the Robustness of 3D Object Detection With Bird’s-Eye-View Representations in Autonomous Driving
+  - [Focal Knowledge Form](https://cvpr2023.thecvf.com/virtual/2023/poster/22921) [CVPR2023] Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection
+
+
+
   **Lane Detection** 
 
 - [Repainting and Imitating Learning for Lane Detection](https://arxiv.org/abs/2210.05097)
@@ -230,6 +235,14 @@ lidar-imu-cam-GPS时间戳硬件同步方案
 - [Laneformer: Object-Aware Row-Column Transformers for Lane Detection](https://www.aaai.org/AAAI22Papers/AAAI-6756.HanJ.pdf)  AAAI 2022
 - [RONELDv2: A faster, improved lane tracking method](https://arxiv.org/abs/2202.13137)
 - [BEV-LaneDet](https://cvpr2023.thecvf.com/virtual/2023/poster/22300) An Efficient 3D Lane Detection Based on Virtual Camera via Key-Points.
+- [Anchor3DLane](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Anchor3DLane_Learning_To_Regress_3D_Anchors_for_Monocular_3D_Lane_CVPR_2023_paper.pdf) [CVPR2023] Learning to Regress 3D Anchors for Monocular 3D Lane Detection
+- [FrustumFormer](https://cvpr2023.thecvf.com/virtual/2023/poster/23100) [CVPR2023] Adaptive Instance-Aware Resampling for Multi-View 3D Detection
+
+  **Segmentation**
+- [LaserMix](https://cvpr2023.thecvf.com/virtual/2023/poster/22996) [CVPR2023] LaserMix for Semi-Supervised LiDAR Semantic Segmentation
+- [PC Forecasting as Proxy](https://cvpr2023.thecvf.com/virtual/2023/poster/22022) [CVPR2023] Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting
+- [Less is More](https://cvpr2023.thecvf.com/virtual/2023/poster/23130) [CVPR2023] Reducing Task and Model Complexity for 3D Point Cloud Semantic Segmentation
+- [ISBNet](https://cvpr2023.thecvf.com/virtual/2023/poster/21952) [CVPR2023] A 3D Point Cloud Instance Segmentation Network With Instance-Aware Sampling and Box-Aware Dynamic Convolution
 
 ### 3.2 Tracking
 *追踪算法*
@@ -281,7 +294,8 @@ significantly improving track stability
 - [BEVerse](https://github.com/zhangyp15/beverse) - Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving.
 - [ParkPredict+](https://github.com/xushenlz/parksim) - Vehicle simualtion and behavior prediction in parking lots.
 - [HiVT](https://github.com/ZikangZhou/HiVT) - Hierarchical Vector Transformer for Multi-Agent Motion Prediction
-
+- [FEND](https://cvpr2023.thecvf.com/virtual/2023/poster/21711) A Future Enhanced Distribution-Aware Contrastive Learning Framework for Long-Tail Trajectory Prediction
+- [EqMotion](https://cvpr2023.thecvf.com/virtual/2023/poster/22896) Equivariant Multi-Agent Motion Prediction With Invariant Interaction Reasoning
 
 ## 5 Localization and SLAM
   *Localization*
@@ -306,7 +320,10 @@ significantly improving track stability
 - [FAST_LIO_SLAM](https://github.com/gisbi-kim/FAST_LIO_SLAM) Scancontext + 现在的SOTA里程计(fast lio)
 - [SC-A-LOAM](https://github.com/gisbi-kim/SC-A-LOAM) - Scancontext + 现在的SOTA里程计(Lego-loam, fast lio, a loam etc.)
 - [FAST_LIO_LOCALIZATION](https://github.com/HViktorTsoi/FAST_LIO_LOCALIZATION) Fast lio 系列建图完成后依赖这些执行定位.
- 
+- [Deep Functional Maps](https://cvpr2023.thecvf.com/virtual/2023/poster/22894) Understanding and Improving Features Learned in Deep Functional Maps
+- [vMap](https://cvpr2023.thecvf.com/virtual/2023/poster/21837) vMAP: Vectorised Object Mapping for Neural Field SLAM
+- [DeepLSD](https://openaccess.thecvf.com/content/CVPR2023/papers/Pautrat_DeepLSD_Line_Segment_Detection_and_Refinement_With_Deep_Image_Gradients_CVPR_2023_paper.pdf) DeepLSD: Line Segment Detection and Refinement with Deep Image Gradients
+
 ## 6. Planning
 *规划*
 - [自动驾驶中的决策规划算法概述](https://www.jiqizhixin.com/articles/2019-07-22)
@@ -384,7 +401,14 @@ significantly improving track stability
 **数据挖掘**
 - [AirDet](https://arxiv.org/abs/2112.01740) Few-Shot Detection without Fine-tuning for Autonomous Exploration. 这篇文章把他放在数据挖掘方面是思考有没有可能用极少样本不用fine-tuning 后可以从原有自动驾驶数据湖中挖掘出更多的样本。
 
+**Data Requirement**
+- [Data Requirement](https://cvpr2023.thecvf.com/virtual/2023/poster/21020) A Meta-Learning Approach to Predicting Performance and Data Requirements
+- [Independent Componenet Alignment MT](https://cvpr2023.thecvf.com/virtual/2023/poster/21126) Independent Component Alignment for Multi-Task Learning
+- [Data-Efficient](https://cvpr2023.thecvf.com/virtual/2023/poster/21084) Data-Efficient Large Scale Place Recognition With Graded Similarity Supervision
+- [Data Deterrministic Uncertainty](https://cvpr2023.thecvf.com/virtual/2023/poster/21132)Deep Deterministic Uncertainty: A New Simple Baseline
 
+**OOD**
+- [Rethink OOD](https://cvpr2023.thecvf.com/virtual/2023/poster/21132) Rethink OOD
 ## 11. Visualization
 *可视化工具*
 
@@ -393,8 +417,14 @@ significantly improving track stability
 - [Cruise](https://webviz.io/worldview/#/) - Cruise 开源的一款自动驾驶前端可视化套件
 
 # 12. Simulation
+- [UniSim](https://cvpr2023.thecvf.com/virtual/2023/poster/22272) [CVPR2023] A Neural Closed-Loop Sensor Simulator
+- [LiDar-in-the-loop](https://cvpr2023.thecvf.com/virtual/2023/poster/21850) [CVPR2023] LiDAR-in-the-Loop Hyperparameter Optimization
+- [Compact Representation](https://cvpr2023.thecvf.com/virtual/2023/poster/22264) [CVPR2023] Learning Compact Representations for LiDAR Completion and Generation
+- [MixSim](https://cvpr2023.thecvf.com/virtual/2023/poster/22001) [CVPR2023] MixSim: A Hierarchical Framework for Mixed Reality Traffic Simulation
+- [The Differentiable Lens](https://cvpr2023.thecvf.com/virtual/2023/poster/22808) [CVPR2023] Compound Lens Search Over Glass Surfaces and Materials for Object Detection
 
 ## 13. Others
 *其他更好的分享*
 - [awesome-3D-object-detection](https://github.com/Tom-Hardy-3D-Vision-Workshop/awesome-3D-object-detection)
 - [3D-ObjectDetection-and-Pose-Estimation](https://github.com/littlebearsama/3D-ObjectDetection-and-Pose-Estimation) -物体检测与位姿估计
+
