@@ -178,6 +178,11 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [Benchmarking robustness of 3D OD](https://cvpr2023.thecvf.com/virtual/2023/poster/22236) [CVPR2023] Benchmarking Robustness of 3D Object Detection to Common Corruptions
   - [Bi3D](https://cvpr2023.thecvf.com/virtual/2023/poster/21758) [CVPR2023] Bi-Domain Active Learning for Cross-Domain 3D Object Detection
   - [Density-Insensitive](https://cvpr2023.thecvf.com/virtual/2023/poster/21626) [CVPR2023] Density-Insensitive Unsupervised Domain Adaption on 3D Object Detection
+  - [UniDistill](https://cvpr2023.thecvf.com/virtual/2023/poster/22863) [CVPR2023] UniDistill: A Universal Cross-Modality Knowledge Distillation Framework for 3D Object Detection in Bird’s-Eye View
+  - [MSF](https://cvpr2023.thecvf.com/virtual/2023/poster/23069) [CVPR2023] MSF: Motion-Guided Sequential Fusion for Efficient 3D Object Detection From Point Cloud Sequences
+  - [OcTr](https://cvpr2023.thecvf.com/virtual/2023/poster/22293) [CVPR2023] OcTr: Octree-Based Transformer for 3D Object Detection
+  - [SlowLiDAR](https://cvpr2023.thecvf.com/virtual/2023/poster/21242) [CVPR2023] Increasing the Latency of LiDAR-Based Detection Using Adversarial Examples
+  - [Uni3D](https://cvpr2023.thecvf.com/virtual/2023/poster/21959) [CVPR2023] Uni3D: A Unified Baseline for Multi-Dataset 3D Object Detection
 
 
   **Lidar Ground Segmentation**
@@ -208,7 +213,13 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [DFKF](https://cvpr2023.thecvf.com/virtual/2023/poster/22921) [CVPR2023]Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection
   - [Understand BEV](https://cvpr2023.thecvf.com/virtual/2023/poster/22414)[CVPR2023] Understanding the Robustness of 3D Object Detection With Bird’s-Eye-View Representations in Autonomous Driving
   - [Focal Knowledge Form](https://cvpr2023.thecvf.com/virtual/2023/poster/22921) [CVPR2023] Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection
+  - [BEVHeight](https://cvpr2023.thecvf.com/virtual/2023/poster/21525) [CVPR2023] BEVHeight: A Robust Framework for Vision-Based Roadside 3D Object Detection
+  - [BEV-SAN](https://cvpr2023.thecvf.com/virtual/2023/poster/22737) [CVPR2023] BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks
 
+  - [Collaboration Overtake LiDAR](https://cvpr2023.thecvf.com/virtual/2023/poster/21634) [CVPR2023] Collaboration Helps Camera Overtake LiDAR in 3D Detection
+  - [MSMDFusion](https://cvpr2023.thecvf.com/virtual/2023/poster/22992) [CVPR2023] MSMDFusion: Fusing LiDAR and Camera at Multiple Scales With Multi-Depth Seeds for 3D Object Detection
+  - [BEV-Guided](https://cvpr2023.thecvf.com/virtual/2023/poster/21232) [CVPR2023] BEV-Guided Multi-Modality Fusion for Driving Perception
+  - [BEV-DC](https://cvpr2023.thecvf.com/virtual/2023/poster/23193) [CVPR2023] BEV@DC: Bird’s-Eye View Assisted Training for Depth Completion
 
 
   **Lane Detection** 
