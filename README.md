@@ -8,6 +8,9 @@ This project will be periodically updated with quality projects and papers relat
 
 Now I am re-orging this project.
 
+## Update 
+* [2023/09/27] Update ICCV 2023 ADAS Paper List！！
+
 ## Contents
 - [Contents](#contents)
 - [1. Autonomous Driving Midleware and Integrated Solutions(中间件与解决方案)](#1-autonomous-driving-midleware-and-integrated-solutions)
@@ -183,16 +186,26 @@ lidar-imu-cam-GPS时间戳硬件同步方案
   - [OcTr](https://cvpr2023.thecvf.com/virtual/2023/poster/22293) [CVPR2023] OcTr: Octree-Based Transformer for 3D Object Detection
   - [SlowLiDAR](https://cvpr2023.thecvf.com/virtual/2023/poster/21242) [CVPR2023] Increasing the Latency of LiDAR-Based Detection Using Adversarial Examples
   - [Uni3D](https://cvpr2023.thecvf.com/virtual/2023/poster/21959) [CVPR2023] Uni3D: A Unified Baseline for Multi-Dataset 3D Object Detection
-
-
+  - [DetZero](https://arxiv.org/abs/2306.06023) [ICCV2023] Rethinking Offboard 3D Object Detection with Long-term Sequential Point Clouds
+  - [FocalFormer3D](https://arxiv.org/abs/2308.04556) [ICCV2023] Focusing on Hard Instance for 3D Object Detection
+  - [GPA-3D](https://arxiv.org/abs/2308.08140) [ICCV2023] Geometry-aware Prototype Alignment for Unsupervised Domain Adaptive 3D Object Detection from Point Clouds
+  - [KECOR](https://arxiv.org/abs/2307.07942) [ICCV2023] KECOR: Kernel Coding Rate Maximization for Active 3D Object Detection
+  - [Once Detected, Never Lost](https://arxiv.org/abs/2304.12315) [ICCV2023] Once Detected, Never Lost: Surpassing Human Performance in Offline LiDAR based 3D Object Detection
+  - [PARTNER](https://arxiv.org/abs/2308.03982) [ICCV2023] PARTNER: Level up the Polar Representation for LiDAR 3D Object Detection
+  - [PG-RCNN](https://arxiv.org/abs/2307.12637) [ICCV2023] PG-RCNN: Semantic Surface Point Generation for 3D Object Detection
+  - [Domain-Adaptive](https://arxiv.org/abs/2307.07944) [ICCV2023]Revisiting Domain-Adaptive 3D Object Detection by Reliable, Diverse and Class-balanced Pseudo-Labeling
+    
   **Lidar Ground Segmentation**
   - [patchwork](https://github.com/LimHyungTae/patchwork) Patchwork 主要由三部分组成：基于同心带模型（CZM）的极坐标网格表示、区域地平面拟合（R-GPF）和地面似然估计（GLE) IROS2021
   - [patchwork++](https://github.com/url-kaist/patchwork-plusplus) 与Patchwork不同，Patchwork++由称为反射噪声去除（RNR）、区域垂直平面拟合（R-VPF）、自适应GLE（A-GLE）和空间地面恢复（TGR）的新模块组成。Patchwork++具有更高的精确度和召回率。此外，新的Patchwork++具有较低的召回标准差。
   - [TRAVEL](https://github.com/url-kaist/TRAVEL.git) 他使用三维点云的图形表示，同时进行可穿越的地面检测和物体聚类, 为了分割可穿越的地面，点云被编码为一个图结构，即三网格场，它将每个三网格视为一个节点。IROS 2022
+
+ **Lidar Segmentation**
+  - [RangeView](https://arxiv.org/abs/2303.05367) [ICCV2023] Rethinking Range View Representation for LiDAR Segmentation
   
 ### 3.1.2 Multi Sensor Fusion
 
-  **BEV Object Detection**
+  **3D Object Detection**
 
  - [PERF](https://github.com/megvii-research/petr) PETR encodes the position information of 3D coordinates into image features, producing the 3D position-aware features.
  - [PERFv2](https://github.com/megvii-research/petr) Based on PETR, PETRv2 explores the effectiveness of temporal modeling, which utilizes the temporal information of previous frames to boost 3D object detection. 
@@ -210,18 +223,34 @@ lidar-imu-cam-GPS时间戳硬件同步方案
  - [CrossDTR](https://github.com/sty61010/CrossDTR) Cross-view and Depth-guided Transformers for 3D Object Detection.
  - [Sim-BEV](https://github.com/aharley/simple_bev) A Simple Baseline for BEV Perception Without LiDAR.
  - [AeDet](https://github.com/fcjian/AeDet) AeDet: Azimuth-invariant Multi-view 3D Object Detection.
-  - [DFKF](https://cvpr2023.thecvf.com/virtual/2023/poster/22921) [CVPR2023]Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection
-  - [Understand BEV](https://cvpr2023.thecvf.com/virtual/2023/poster/22414)[CVPR2023] Understanding the Robustness of 3D Object Detection With Bird’s-Eye-View Representations in Autonomous Driving
-  - [Focal Knowledge Form](https://cvpr2023.thecvf.com/virtual/2023/poster/22921) [CVPR2023] Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection
-  - [BEVHeight](https://cvpr2023.thecvf.com/virtual/2023/poster/21525) [CVPR2023] BEVHeight: A Robust Framework for Vision-Based Roadside 3D Object Detection
-  - [BEV-SAN](https://cvpr2023.thecvf.com/virtual/2023/poster/22737) [CVPR2023] BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks
-
-  - [Collaboration Overtake LiDAR](https://cvpr2023.thecvf.com/virtual/2023/poster/21634) [CVPR2023] Collaboration Helps Camera Overtake LiDAR in 3D Detection
-  - [MSMDFusion](https://cvpr2023.thecvf.com/virtual/2023/poster/22992) [CVPR2023] MSMDFusion: Fusing LiDAR and Camera at Multiple Scales With Multi-Depth Seeds for 3D Object Detection
-  - [BEV-Guided](https://cvpr2023.thecvf.com/virtual/2023/poster/21232) [CVPR2023] BEV-Guided Multi-Modality Fusion for Driving Perception
-  - [BEV-DC](https://cvpr2023.thecvf.com/virtual/2023/poster/23193) [CVPR2023] BEV@DC: Bird’s-Eye View Assisted Training for Depth Completion
-
-
+ - [DFKF](https://cvpr2023.thecvf.com/virtual/2023/poster/22921) [CVPR2023]Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection
+ - [Understand BEV](https://cvpr2023.thecvf.com/virtual/2023/poster/22414)[CVPR2023] Understanding the Robustness of 3D Object Detection With Bird’s-Eye-View Representations in Autonomous Driving
+ - [Focal Knowledge Form](https://cvpr2023.thecvf.com/virtual/2023/poster/22921) [CVPR2023] Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection
+ - [BEVHeight](https://cvpr2023.thecvf.com/virtual/2023/poster/21525) [CVPR2023] BEVHeight: A Robust Framework for Vision-Based Roadside 3D Object Detection
+ - [BEV-SAN](https://cvpr2023.thecvf.com/virtual/2023/poster/22737) [CVPR2023] BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks
+ - [Collaboration Overtake LiDAR](https://cvpr2023.thecvf.com/virtual/2023/poster/21634) [CVPR2023] Collaboration Helps Camera Overtake LiDAR in 3D Detection
+ - [MSMDFusion](https://cvpr2023.thecvf.com/virtual/2023/poster/22992) [CVPR2023] MSMDFusion: Fusing LiDAR and Camera at Multiple Scales With Multi-Depth Seeds for 3D Object Detection
+ - [BEV-Guided](https://cvpr2023.thecvf.com/virtual/2023/poster/21232) [CVPR2023] BEV-Guided Multi-Modality Fusion for Driving Perception
+ - [BEV-DC](https://cvpr2023.thecvf.com/virtual/2023/poster/23193) [CVPR2023] BEV@DC: Bird’s-Eye View Assisted Training for Depth Completion
+ - [Ada3D](https://arxiv.org/abs/2307.08209) [ICCV2023] Ada3D : Exploiting the Spatial Redundancy with Adaptive Inference for Efficient 3D Object Detection
+ - [Cross Modal Transformer](https://arxiv.org/abs/2301.01283) [ICCV2023] Cross Modal Transformer: Towards Fast and Robust 3D Object Detection
+ - [Object-Centric Temporal Modeling](https://arxiv.org/abs/2303.11926) [ICCV2023] Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection
+ - [QD-BEV](https://arxiv.org/abs/2308.10515) [ICCV2023] Quantization-aware View-guided Distillation for Multi-view 3D Object Detection
+ - [MetaBEV](https://arxiv.org/abs/2304.09801) [ICCV2023] Solving Sensor Failures for BEV Detection and Map Segmentation
+ - [Perceiver](https://arxiv.org/abs/2304.01289) [ICCV2023] Monocular 3D Object Detection with Bounding Box Denoising in 3D by Perceiver
+ - [MonoNeRD](https://arxiv.org/abs/2308.09421) [ICCV2023] NeRF-like Representations for Monocular 3D Object Detection
+ - [Object as Query](https://arxiv.org/abs/2301.02364) [ICCV2023] Object as Query: Lifting any 2D Object Detector to 3D Detection
+ - [Predict to Detect](https://arxiv.org/abs/2306.08528) [ICCV2023] Predict to Detect: Prediction-guided 3D Object Detection using Sequential Images
+ - [Pepresentation Disparity-aware](https://arxiv.org/abs/2308.10308) [ICCV2023] Representation Disparity-aware Distillation for 3D Object Detection
+ - [SA-BEV](https://arxiv.org/abs/2307.11477) [ICCV2023] SA-BEV: Generating Semantic-Aware Bird's-Eye-View Feature for Multi-view 3D Object Detection
+ - [SparseBEV](https://arxiv.org/abs/2308.09244) [ICCV2023] SparseBEV: High-Performance Sparse 3D Object Detection from Multi-Camera Videos
+ - [SparseFusion](https://arxiv.org/abs/2308.14340) [ICCV2023] SparseFusion: Fusing Multi-Modal Sparse Representations for Multi-Sensor 3D Object Detection
+ - [SupFusion](https://arxiv.org/abs/2309.07084) [ICCV2023] SupFusion: Supervised LiDAR-Camera Fusion for 3D Object Detection
+ - [3DPPE](https://arxiv.org/abs/2211.14710) [ICCV2023] 3DPPE: 3D Point Positional Encoding for Multi-Camera 3D Object Detection Transformers
+ - [MonoDETR](https://arxiv.org/abs/2203.13310) [ICCV2023] MonoDETR: Depth-guided Transformer for Monocular 3D Object Detection
+ - [PETRv2](https://arxiv.org/abs/2206.01256) [ICCV2023] PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images
+ - [UpCycling](https://arxiv.org/abs/2211.11950) [ICCV2023] UpCycling: Semi-supervised 3D Object Detection without Sharing Raw-level Unlabeled Scenes
+ - [ICCV2023] Not Every Side Is Equal: Localization Uncertainty Estimation for Semi-Supervised 3D Object Detection
   **Lane Detection** 
 
 - [Repainting and Imitating Learning for Lane Detection](https://arxiv.org/abs/2210.05097)
@@ -270,6 +299,10 @@ significantly improving track stability
 层次化多级分类标签，用于层次化多级目标跟踪。
  - [Tracking ROS](https://github.com/HuangCongQing/3D-LIDAR-Multi-Object-Tracking) 一个很好的ROS Tracking节点，方便大家参考。
  - [CXTrack](https://cvpr2023.thecvf.com/virtual/2023/poster/22624) Improving 3D Point Cloud Tracking With Contextual Information
+ - [Monocular-Tracking](https://arxiv.org/abs/2308.11607) [ICCV2023] Delving into Motion-Aware Matching for Monocular 3D Object Tracking
+ - [MBPTrack](https://arxiv.org/abs/2303.05071) [ICCV2023] Improving 3D Point Cloud Tracking with Memory Networks and Box Priors
+ - [Synchronize Feature Extracting and Matching](https://arxiv.org/abs/2308.12549) [ICCV2023] Synchronize Feature Extracting and Matching: A Single Branch Framework for 3D Object Tracking
+
 
 ### 3.3 High Performance Inference
 *高性能推理*
@@ -307,9 +340,15 @@ significantly improving track stability
 - [HiVT](https://github.com/ZikangZhou/HiVT) - Hierarchical Vector Transformer for Multi-Agent Motion Prediction
 - [FEND](https://cvpr2023.thecvf.com/virtual/2023/poster/21711) A Future Enhanced Distribution-Aware Contrastive Learning Framework for Long-Tail Trajectory Prediction
 - [EqMotion](https://cvpr2023.thecvf.com/virtual/2023/poster/22896) Equivariant Multi-Agent Motion Prediction With Invariant Interaction Reasoning
+- [EigenTrajectory](https://arxiv.org/abs/2307.09306) [ICCV2023] EigenTrajectory: Low-Rank Descriptors for Multi-Modal Trajectory Forecasting
+- [Temporal Enhanced](https://arxiv.org/abs/2304.00967) [ICCV2023] Temporal Enhanced Training of Multi-view 3D Object Detector via Historical Object Prediction
+- [TrajectoryFormer](https://arxiv.org/abs/2306.05888) [ICCV2023] TrajectoryFormer: 3D Object Tracking Transformer with Predictive Trajectory Hypotheses
 
+
+
+  
 ## 5 Localization and SLAM
-  *Localization*
+   *Localization*
   
   - [hdl_localization](https://github.com/koide3/hdl_localization) - **Lidar + IMU** 基于卡尔曼滤波的位置估计使用了激光雷达，IMU, 可以做到实时估计。
   
@@ -334,6 +373,8 @@ significantly improving track stability
 - [Deep Functional Maps](https://cvpr2023.thecvf.com/virtual/2023/poster/22894) Understanding and Improving Features Learned in Deep Functional Maps
 - [vMap](https://cvpr2023.thecvf.com/virtual/2023/poster/21837) vMAP: Vectorised Object Mapping for Neural Field SLAM
 - [DeepLSD](https://openaccess.thecvf.com/content/CVPR2023/papers/Pautrat_DeepLSD_Line_Segment_Detection_and_Refinement_With_Deep_Image_Gradients_CVPR_2023_paper.pdf) DeepLSD: Line Segment Detection and Refinement with Deep Image Gradients
+- [EgoLoc](https://arxiv.org/abs/2212.06969) [ICCV2023] EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries
+
 
 ## 6. Planning
 *规划*
