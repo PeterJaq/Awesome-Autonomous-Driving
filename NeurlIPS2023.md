@@ -1,7 +1,7 @@
-# NeurIPS 2023 Paper List
+# Search Results
 
 | Paper ID       | Title      | Link      |   Poster   |
-|------------|-----------------|------------|------------|
+|------------|-----------------|------------|
 | 70701 | Hierarchical Adaptive Value Estimation for Multi-modal Visual Reinforcement Learning | [link](https://nips.cc/virtual/2023/poster/70701) | [poster](https://nips.cc) |
 | 72892 | SoTTA: Robust Test-Time Adaptation on Noisy Data Streams | [link](https://nips.cc/virtual/2023/poster/72892) | [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/72892.png?t=1697698472.1624212) |
 | 70535 | Transient Neural Radiance Fields for Lidar View Synthesis and 3D Reconstruction | [link](https://nips.cc/virtual/2023/poster/70535) | [poster](https://nips.cc) |
@@ -33,15 +33,6 @@
 | 70393 | Distributional Pareto-Optimal Multi-Objective Reinforcement Learning | [link](https://nips.cc/virtual/2023/poster/70393) | [poster](https://nips.cc) |
 | 72966 | Navigating Data Heterogeneity in Federated Learning: A Semi-Supervised Approach for Object Detection | [link](https://nips.cc/virtual/2023/poster/72966) | [poster](https://nips.cc) |
 | 72580 | RangePerception: Taming LiDAR Range View for Efficient and Accurate 3D Object Detection | [link](https://nips.cc/virtual/2023/poster/72580) | [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/72580.png?t=1699442980.5426366) |
-| 71242 | Depth-discriminative Metric Learning for Monocular 3D Object Detection | [link](https://nips.cc/virtual/2023/poster/71242) | [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/71242.png?t=1699338623.0069954) |
-| 72189 | STXD: Structural and Temporal Cross-Modal Distillation for Multi-View 3D Object Detection | [link](https://nips.cc/virtual/2023/poster/72189) | [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/72189.png?t=1699018665.0646977) |
-| 71914 | Bridging the Domain Gap: Self-Supervised 3D Scene Understanding with Foundation Models | [link](https://nips.cc/virtual/2023/poster/71914) | [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/71914.png?t=1699127119.180831) |
-| 71274 | Diffusion-SS3D: Diffusion Model for Semi-supervised 3D Object Detection | [link](https://nips.cc/virtual/2023/poster/71274) | [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/71274.png?t=1698762965.3882627) |
-| 72667 | Tame a Wild Camera: In-the-Wild Monocular Camera Calibration | [link](https://nips.cc/virtual/2023/poster/72667) | [poster](https://nips.cc) |
-| 71702 | CoDA: Collaborative Novel Box Discovery and Cross-modal Alignment for Open-vocabulary 3D Object Detection | [link](https://nips.cc/virtual/2023/poster/71702) | [poster](https://nips.cc) |
-| 70697 | CluB: Cluster Meets BEV for LiDAR-Based 3D Object Detection | [link](https://nips.cc/virtual/2023/poster/70697) | [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/70697.png?t=1698112563.1925676) |
-| 71045 | 3D Copy-Paste: Physically Plausible Object Insertion for Monocular 3D Detection | [link](https://nips.cc/virtual/2023/poster/71045) | [poster](https://nips.cc) |
-| 72802 | Uni3DETR: Unified 3D Detection Transformer | [link](https://nips.cc/virtual/2023/poster/72802) | [poster](https://nips.cc) |
-| 73508 | SiT Dataset: Socially Interactive Pedestrian Trajectory Dataset for Social Navigation Robots | [link](https://nips.cc/virtual/2023/poster/73508) | [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/73508.png?t=1697476690.6657348) |
 | 72165 | Learning Dense Flow Field for Highly-accurate Cross-view Camera Localization | [link](https://nips.cc/virtual/2023/poster/72165) | [poster](https://nips.cc) |
 | 71517 | Asynchrony-Robust Collaborative Perception via Bird's Eye View Flow | [link](https://nips.cc/virtual/2023/poster/71517) | [poster](https://nips.cc) |
+| 70697 | CluB: Cluster Meets BEV for LiDAR-Based 3D Object Detection | [link](https://nips.cc/virtual/2023/poster/70697) | [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/70697.png?t=1698112563.1925676) |
