@@ -1,7 +1,7 @@
 # Search Results
 
 | Paper ID       | Title      | Link      |   Poster   |
-|------------|-----------------|------------|
+|------------|-----------------|------------|------------|
 | 70701 | Hierarchical Adaptive Value Estimation for Multi-modal Visual Reinforcement Learning | [link](https://nips.cc/virtual/2023/poster/70701) | [poster](https://nips.cc) |
 | 72892 | SoTTA: Robust Test-Time Adaptation on Noisy Data Streams | [link](https://nips.cc/virtual/2023/poster/72892) | [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/72892.png?t=1697698472.1624212) |
 | 70535 | Transient Neural Radiance Fields for Lidar View Synthesis and 3D Reconstruction | [link](https://nips.cc/virtual/2023/poster/70535) | [poster](https://nips.cc) |
