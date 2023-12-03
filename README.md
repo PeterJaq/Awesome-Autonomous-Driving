@@ -9,7 +9,8 @@ This project will be periodically updated with quality projects and papers relat
 Now I am re-orging this project.
 
 ## Update 
-* [2023/12/2] Update Arxiv 2023 11 ADAS Paper List!! [Arxiv-202311](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202311.md)
+* [2023/12/3] Add Daily ADAS Arxiv Paper List!! in [ADAS-Arxiv-Daily](https://github.com/PeterJaq/adas-arxiv-daily)
+* [2023/12/2] Update Arxiv 2023 11 Monthly ADAS Paper List!! [Arxiv-202311](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202311.md)
 * [2023/11/20] Update NeurIPS 2023 ADAS Paper List!! [NeurIPS2023](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/conferences/NeurIPS2023.md)
 * [2023/09/27] Update ICCV 2023 ADAS Paper List！！
 
