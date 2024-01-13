@@ -2,13 +2,14 @@
 
 Author: 牛肉咖喱饭(PeterJaq)
 
-Update：2023/12/03
+Update：2023/01/13
 
 This project will be periodically updated with quality projects and papers related to autonomous driving.
 
 Now I am re-orging this project.
 
 ## Update 
+* [2023/1/13] Add Other Awesome List.
 * [2023/1/1] Update Arxiv 2023 12 Monthly ADAS Paper List!! [Arxiv-202312](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202312.md)
 * [2023/12/3] Add Daily ADAS Arxiv Paper List!! in [ADAS-Arxiv-Daily](https://github.com/PeterJaq/adas-arxiv-daily)
 * [2023/12/2] Update Arxiv 2023 11 Monthly ADAS Paper List!! [Arxiv-202311](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202311.md)
@@ -483,4 +484,5 @@ significantly improving track stability
 *其他更好的分享*
 - [awesome-3D-object-detection](https://github.com/Tom-Hardy-3D-Vision-Workshop/awesome-3D-object-detection)
 - [3D-ObjectDetection-and-Pose-Estimation](https://github.com/littlebearsama/3D-ObjectDetection-and-Pose-Estimation) -物体检测与位姿估计
+- [Awesome-Knowledge-Distillation-for-Autonomous-Driving](https://github.com/linyanAI/Awesome-Knowledge-Distillation-for-Autonomous-Driving) Knowledge Distillation for AD
 
