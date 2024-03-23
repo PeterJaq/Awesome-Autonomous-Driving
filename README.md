@@ -9,6 +9,7 @@ This project will be periodically updated with quality projects and papers relat
 Now I am re-orging this project.
 
 ## Update 
+* [2023/03/23] Update HD Map Groudtruth and Oneline Paper List !!
 * [2023/3/14] Update Arxiv 2024 02 Monthly ADAS Paper List!! [Arxiv-202402](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202402.md)
 * [2023/2/11] Update Arxiv 2024 01 Monthly ADAS Paper List!! [Arxiv-202401](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202401.md)
 * [2023/1/13] Add Other Awesome List.
