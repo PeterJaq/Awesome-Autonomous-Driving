@@ -314,32 +314,32 @@ significantly improving track stability
 ### 3.3 Map & Topo
 
  - [Survey](https://dl.acm.org/doi/10.1145/3627160) Data Issues in High-Definition Maps Furniture – A Survey
- - [MapNeXt](https://arxiv.org/abs/2401.07323)MapNeXt: Revisiting Training and Scaling Practices for Online Vectorized HD Map Construction
- - [PolyRoad](https://ieeexplore.ieee.org/document/10364754)PolyRoad: Polyline Transformer for Topological Road-Boundary Detection
- - [Survey](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10184094)High-Definition Maps Construction Based on Visual Sensor: A Comprehensive Survey
- - [VMA](https://arxiv.org/abs/2304.09807)VMA: Divide-and-Conquer Vectorized Map Annotation System for Large-Scale Driving Scene
- - [Lane Graph as Path](https://arxiv.org/abs/2303.08815)Lane Graph as Path: Continuity-preserving Path-wise Modeling for Online Lane Graph Construction
- - [PivotNet](https://arxiv.org/abs/2308.16477)PivotNet: Vectorized Pivot Learning for End-to-end HD Map Construction
- - [E2E Map](https://arxiv.org/abs/2306.09700)End-to-End Vectorized HD-map Construction with Piecewise Bezier Curve
- - [LATR](https://arxiv.org/abs/2308.04583)LATR: 3D Lane Detection from Monocular Images with Transformer
- - [TopoReas](https://arxiv.org/abs/2304.05277)Graph-based Topology Reasoning for Driving Scenes
- - [TopoMLP](https://arxiv.org/abs/2310.06753)TopoMLP: A Simple yet Strong Pipeline for Driving Topology Reasoning
- - [Neural Map Prior](https://arxiv.org/abs/2304.08481)Neural Map Prior for Autonomous Driving
- - [Construction using Geometry](https://arxiv.org/abs/2312.03341)Online Vectorized HD Map Construction using Geometry
- - [MapTRv2](https://arxiv.org/abs/2308.05736)MapTRv2: An End-to-End Framework for Online Vectorized HD Map Construction
- - [InstaGraM](https://arxiv.org/abs/2301.04470)InstaGraM: Instance-level Graph Modeling for Vectorized HD Map Learning
- - [PolyMerge](https://arxiv.org/abs/2310.184160)PolyMerge: A Novel Technique aimed at Dynamic HD Map Updates Leveraging Polylines
- - [MapSeg](https://arxiv.org/abs/2311.02503)MapSeg: Segmentation guided structured model for online HD map construction
- - [Efficient](https://ieeexplore.ieee.org/document/10161331)Efficient and Hybrid Decoder for Local Map Construction in Bird'-Eye-View
- - [Mind the map!](https://arxiv.org/abs/2311.10517)Mind the map! Accounting for existing map information when estimating online HDMaps from sensor data
- - [ScalableMap](https://arxiv.org/abs/2310.13378)ScalableMap: Scalable Map Learning for Online Long-Range Vectorized HD Map Construction
- - [TopoNet](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14496)TopoNet: Topology Learning for 3D Reconstruction of Objects of Arbitrary Genus
- - [SuperFusion](https://arxiv.org/abs/2211.15656)SuperFusion: Multilevel LiDAR-Camera Fusion for Long-Range HD Map Generation
- - [MapTR](https://arxiv.org/abs/2208.14437)MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction
- - [VectorMapNet](https://arxiv.org/abs/2206.08920)VectorMapNet: End-to-end Vectorized HD Map Learning
- - [csBoundary](https://arxiv.org/abs/2111.06020)csBoundary: City-Scale Road-Boundary Detection in Aerial Images for High-Definition Maps
- - [Topo-boundary](https://arxiv.org/abs/2103.17119)Topo-boundary: A Benchmark Dataset on Topological Road-boundary Detection Using Aerial Images for Autonomous Driving
- - [HDMapNet](https://arxiv.org/abs/2107.06307)HDMapNet: An Online HD Map Construction and Evaluation Framework
+ - [MapNeXt](https://arxiv.org/abs/2401.07323) MapNeXt: Revisiting Training and Scaling Practices for Online Vectorized HD Map Construction
+ - [PolyRoad](https://ieeexplore.ieee.org/document/10364754) PolyRoad: Polyline Transformer for Topological Road-Boundary Detection
+ - [Survey](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10184094) High-Definition Maps Construction Based on Visual Sensor: A Comprehensive Survey
+ - [VMA](https://arxiv.org/abs/2304.09807) VMA: Divide-and-Conquer Vectorized Map Annotation System for Large-Scale Driving Scene
+ - [Lane Graph as Path](https://arxiv.org/abs/2303.08815) Lane Graph as Path: Continuity-preserving Path-wise Modeling for Online Lane Graph Construction
+ - [PivotNet](https://arxiv.org/abs/2308.16477) PivotNet: Vectorized Pivot Learning for End-to-end HD Map Construction
+ - [E2E Map](https://arxiv.org/abs/2306.09700) End-to-End Vectorized HD-map Construction with Piecewise Bezier Curve
+ - [LATR](https://arxiv.org/abs/2308.04583) LATR: 3D Lane Detection from Monocular Images with Transformer
+ - [TopoReas](https://arxiv.org/abs/2304.05277) Graph-based Topology Reasoning for Driving Scenes
+ - [TopoMLP](https://arxiv.org/abs/2310.06753) TopoMLP: A Simple yet Strong Pipeline for Driving Topology Reasoning
+ - [Neural Map Prior](https://arxiv.org/abs/2304.08481) Neural Map Prior for Autonomous Driving
+ - [Construction using Geometry](https://arxiv.org/abs/2312.03341) Online Vectorized HD Map Construction using Geometry
+ - [MapTRv2](https://arxiv.org/abs/2308.05736) MapTRv2: An End-to-End Framework for Online Vectorized HD Map Construction
+ - [InstaGraM](https://arxiv.org/abs/2301.04470) InstaGraM: Instance-level Graph Modeling for Vectorized HD Map Learning
+ - [PolyMerge](https://arxiv.org/abs/2310.184160) PolyMerge: A Novel Technique aimed at Dynamic HD Map Updates Leveraging Polylines
+ - [MapSeg](https://arxiv.org/abs/2311.02503) MapSeg: Segmentation guided structured model for online HD map construction
+ - [Efficient](https://ieeexplore.ieee.org/document/10161331) Efficient and Hybrid Decoder for Local Map Construction in Bird'-Eye-View
+ - [Mind the map!](https://arxiv.org/abs/2311.10517) Mind the map! Accounting for existing map information when estimating online HDMaps from sensor data
+ - [ScalableMap](https://arxiv.org/abs/2310.13378) ScalableMap: Scalable Map Learning for Online Long-Range Vectorized HD Map Construction
+ - [TopoNet](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14496) TopoNet: Topology Learning for 3D Reconstruction of Objects of Arbitrary Genus
+ - [SuperFusion](https://arxiv.org/abs/2211.15656) SuperFusion: Multilevel LiDAR-Camera Fusion for Long-Range HD Map Generation
+ - [MapTR](https://arxiv.org/abs/2208.14437) MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction
+ - [VectorMapNet](https://arxiv.org/abs/2206.08920) VectorMapNet: End-to-end Vectorized HD Map Learning
+ - [csBoundary](https://arxiv.org/abs/2111.06020) csBoundary: City-Scale Road-Boundary Detection in Aerial Images for High-Definition Maps
+ - [Topo-boundary](https://arxiv.org/abs/2103.17119) Topo-boundary: A Benchmark Dataset on Topological Road-boundary Detection Using Aerial Images for Autonomous Driving
+ - [HDMapNet](https://arxiv.org/abs/2107.06307) HDMapNet: An Online HD Map Construction and Evaluation Framework
 
 
 ### 3.4 High Performance Inference
