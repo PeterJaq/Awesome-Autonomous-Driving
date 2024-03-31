@@ -7,11 +7,12 @@ Update：2024/03/23
 This project will be periodically updated with quality projects and papers related to autonomous driving.
 
 ## Update 
-* [2023/03/23] Update HD Map Groudtruth and Oneline Paper List !!
-* [2023/3/14] Update Arxiv 2024 02 Monthly ADAS Paper List!! [Arxiv-202402](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202402.md)
-* [2023/2/11] Update Arxiv 2024 01 Monthly ADAS Paper List!! [Arxiv-202401](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202401.md)
-* [2023/1/13] Add Other Awesome List.
-* [2023/1/1] Update Arxiv 2023 12 Monthly ADAS Paper List!! [Arxiv-202312](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202312.md)
+* [2024/03/31] Update CVPR 2024 Paper List in [CVPR2024 Autonoumous Driving](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/conferences/CVPR2024.md)
+* [2024/03/23] Update HD Map Groudtruth and Oneline Paper List !!
+* [2024/3/14] Update Arxiv 2024 02 Monthly ADAS Paper List!! [Arxiv-202402](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202402.md)
+* [2024/2/11] Update Arxiv 2024 01 Monthly ADAS Paper List!! [Arxiv-202401](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202401.md)
+* [2024/1/13] Add Other Awesome List.
+* [2024/1/1] Update Arxiv 2023 12 Monthly ADAS Paper List!! [Arxiv-202312](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202312.md)
 * [2023/12/3] Add Daily ADAS Arxiv Paper List!! in [ADAS-Arxiv-Daily](https://github.com/PeterJaq/adas-arxiv-daily)
 * [2023/12/2] Update Arxiv 2023 11 Monthly ADAS Paper List!! [Arxiv-202311](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202311.md)
 * [2023/11/20] Update NeurIPS 2023 ADAS Paper List!! [NeurIPS2023](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/conferences/NeurIPS2023.md)
