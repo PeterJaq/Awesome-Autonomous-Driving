@@ -7,6 +7,7 @@ Update：2024/07/10
 This project will be periodically updated with quality projects and papers related to autonomous driving.
 
 ## Update
+* [2024/08/07] Update Arxiv 2024 07 Monthly ADAS Paper List!! [Arxiv-202407](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202407.md)
 * [2024/07/10] Update Arxiv 2024 06 Monthly ADAS Paper List!! [Arxiv-202406](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202406.md)
 * [2024/06/10] Update Arxiv 2024 05 Monthly ADAS Paper List!! [Arxiv-202405](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/arxiv/202405.md)
 * [2024/05/13] Update ICRA 2024 Paper List [ICRA2024 Autonomous Driving](https://github.com/PeterJaq/Awesome-Autonomous-Driving/blob/main/conferences/ICRA2024.md)
