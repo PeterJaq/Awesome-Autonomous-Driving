@@ -394,6 +394,7 @@ significantly improving track stability
    *Localization*
   
   - [hdl_localization](https://github.com/koide3/hdl_localization) - **Lidar + IMU** 基于卡尔曼滤波的位置估计使用了激光雷达，IMU, 可以做到实时估计。
+  - [FusionCore](https://github.com/manankharwar/fusioncore) - **GPS + IMU + Wheel Odometry** A ROS 2 UKF for robust outdoor localization with adaptive noise and GPS outlier rejection.
   
   *SLAM*
 - [PaGO-LOAM](https://github.com/url-kaist/AlterGround-LeGO-LOAM) 一个基于LeGO-LOAM的LiDAR测距框架，在这个框架中，测试地面分割算法是否有助于提取特征和改善SLAM性能是很容易和直接的。
